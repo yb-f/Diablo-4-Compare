@@ -1,0 +1,28 @@
+control,name
+AllDamage,All Damage
+DamageVsCC,Damage Vs CC
+DamageVsClose,Damage Vs Close
+DamageVsDistant,Damage Vs Distant
+DamageVsElites,Damage Vs Elites
+DamageVsHealthy,Damage Vs Healthy
+DamageVsImmobilized,Damage Vs Immobilized
+DamageVsInjured,Damage Vs Injured
+DamageVsPoisoned,Damage Vs Poisoned
+DamageVsSlowed,Damage Vs Slowed
+DamageVsStunned,Damage Vs Stunned
+DamagewhileFortified,Damage while Fortified
+DamagewhileHealthy,Damage while Healthy
+DamagewhileHuman,Damage while Human
+DamagewhileShapeshifted,Damage while Shapeshifted
+DamagewhileWerebear,Damage while Werebear
+DamagewhileWerewolf,Damage while Werewolf
+DamagewithBasic,Damage with Basic
+DamagewithCompanion,Damage with Companion
+DamagewithCore,Damage with Core
+DamagewithEarth,Damage with Earth
+DamagewithLightning,Damage with Lightning
+DamagewithPhysical,Damage with Physical
+DamagewithPoison,Damage with Poison
+DamagewithStorm,Damage with Storm
+DamagewithWerebear,Damage with Werebear
+DamagewithWerewolf,Damage with Werewolf
