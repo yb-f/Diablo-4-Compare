@@ -2,9 +2,10 @@ using CsvHelper;
 using CsvHelper.Configuration.Attributes;
 using Diablo_4_Compare;
 using IronOcr;
-using Microsoft.VisualBasic.ApplicationServices;
+using System;
 using System.Globalization;
 using System.Reflection.Metadata.Ecma335;
+using System.Windows.Forms;
 using static IronOcr.OcrResult;
 
 
@@ -21,6 +22,7 @@ namespace Diablo_4_Compare
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
+            IronOcr.License.LicenseKey = "IRONSUITE.LDA922.PROTONMAIL.COM.20319-75EADEDAC5-D53YWJG-2G7J6BHNQCOH-OOMPQJIFXTMO-B323AING4IAW-HATSN6WRFQHB-R7ZI7BUK6LDD-P3U7R7AAAW6A-6DNWCZ-TQEVGAX2MJ6KEA-DEPLOYMENT.TRIAL-ZIMFTU.TRIAL.EXPIRES.23.JUL.2023";
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }
@@ -402,6 +404,11 @@ namespace Diablo_4_Compare
 
     public class Read_image
     {
+        public static byte[] ImageToByte(System.Drawing.Image img)
+        {
+            ImageConverter converter = new ImageConverter();
+            return (byte[])converter.ConvertTo(img, typeof(byte[]));
+        }
 
         public static void populate_Stats(OcrResult ocrResult, Panel panel1)
         {
@@ -710,26 +717,29 @@ namespace Diablo_4_Compare
             }
 
         }
-            public static OcrResult readImage(Panel panel5)
-            {
-                var ocr = new IronTesseract();
 
-                ocr.Configuration.WhiteListCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 +%.,-";
+        public static OcrResult readImage(Panel panel5)
+        {
+
+            var ocr = new IronTesseract();
+
+               ocr.Configuration.WhiteListCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 +%.,-";
 
 
-                using (var ocrInput = new OcrInput())
-                {
+               using (var ocrInput = new OcrInput())
+               {
 
-                    Barb_Weapon barb = new Barb_Weapon();
+                  
                     PictureBox pic = panel5.Controls["pictureBox1"] as PictureBox;
-                    ocrInput.AddImage(pic.Image);
+                   ocrInput.AddImage(pic.Image);
 
 
 
-                    //var ocrResult = ocr.Read(ocrInput);
-                    return ocr.Read(ocrInput);
-                }
-            }
+                   //var ocrResult = ocr.Read(ocrInput);
+                   return ocr.Read(ocrInput);
+               }
+       
+        }
                 
     }
 

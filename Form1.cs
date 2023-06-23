@@ -123,7 +123,10 @@ namespace Diablo_4_Compare
         {
             if (pictureBox1.Image != null && !(class_ComboBox.Text == ""))
             {
+
+
                 OcrResult ocrResult = Read_image.readImage(panel5);
+
                 if (radioWeapon1.Checked == true)
                 {
                     Read_image.populate_weapon(ocrResult, panel4, 1);
