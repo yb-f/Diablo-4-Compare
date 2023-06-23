@@ -1,0 +1,26 @@
+control,name
+AllDamage,All Damage
+DamageVsBleeding,Damage Vs Bleeding
+DamageVsCC,Damage Vs CC
+DamageVsClose,Damage Vs Close
+DamageVsDistant,Damage Vs Distant
+DamageVsElites,Damage Vs Elites
+DamageVsHealthy,Damage Vs Healthy
+DamageVsInjured,Damage Vs Injured
+DamageVsSlowed,Damage Vs Slowed
+DamageVsStunned,Damage Vs Stunned
+DamagewhileBerserking,Damage while Berserking
+DamagewhileFortified,Damage while Fortified
+DamagewhileHealthy,Damage while Healthy
+DamagewithBasic,Damage with Basic
+DamagewithBleeding,Damage with Bleeding
+DamagewithBludgeoning,Damage with Bludgeoning
+DamagewithCore,Damage with Core
+DamagewithDualWielding,Damage with Dual Wielding
+DamagewithMace,Damage with Mace
+DamagewithPhysical,Damage with Physical
+DamagewithPolearm,Damage with Polearm
+DamagewithSlashing,Damage with Slashing
+DamagewithSwappedWeapons,Damage with Swapped Weapons
+DamagewithSword,Damage with Sword
+DamagewithWeaponMastery,Damage with Weapon Mastery

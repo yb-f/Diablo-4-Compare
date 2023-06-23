@@ -1,0 +1,15 @@
+control,name
+CriticalStrikeChance,Critical Strike Chance
+CriticalStrikeChancevsInjured,Critical Strike Chance vs Injured
+CriticalStrikeDamage,Critical Strike Damage
+CriticalStrikeDamagevsCC,Critical Strike Damage vs CC
+CriticalStrikeDamagevsVulnerable,Critical Strike Damage vs Vulnerable
+CriticalStrikeDamagewithBlood,Critical Strike Damage with Blood
+CriticalStrikeDamagewithBone,Critical Strike Damage with Bone
+CriticalStrikeDamagewithCore,Critical Strike Damage with Core
+CriticalStrikeDamagewithShadow,Critical Strike Damage with Shadow
+VulnerableDamage,Vulnerable Damage
+OverpowerChance,Overpower Chance
+OverpowerDamage,Overpower Damage
+BaseHealth,Base Health
+Fortify,Fortify

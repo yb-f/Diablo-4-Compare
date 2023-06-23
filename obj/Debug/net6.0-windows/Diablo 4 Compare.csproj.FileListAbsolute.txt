@@ -1,0 +1,50 @@
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\Diablo 4 Compare.exe
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\Diablo 4 Compare.deps.json
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\Diablo 4 Compare.runtimeconfig.json
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\Diablo 4 Compare.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\Diablo 4 Compare.pdb
+C:\Users\lcx\source\repos\Diablo 4 Compare\obj\Debug\net6.0-windows\Diablo 4 Compare.csproj.AssemblyReference.cache
+C:\Users\lcx\source\repos\Diablo 4 Compare\obj\Debug\net6.0-windows\Diablo_4_Compare.Form1.resources
+C:\Users\lcx\source\repos\Diablo 4 Compare\obj\Debug\net6.0-windows\Diablo 4 Compare.csproj.GenerateResource.cache
+C:\Users\lcx\source\repos\Diablo 4 Compare\obj\Debug\net6.0-windows\Diablo 4 Compare.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lcx\source\repos\Diablo 4 Compare\obj\Debug\net6.0-windows\Diablo 4 Compare.AssemblyInfoInputs.cache
+C:\Users\lcx\source\repos\Diablo 4 Compare\obj\Debug\net6.0-windows\Diablo 4 Compare.AssemblyInfo.cs
+C:\Users\lcx\source\repos\Diablo 4 Compare\obj\Debug\net6.0-windows\Diablo 4 Compare.csproj.CoreCompileInputs.cache
+C:\Users\lcx\source\repos\Diablo 4 Compare\obj\Debug\net6.0-windows\Diablo 4 Compare.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\obj\Debug\net6.0-windows\refint\Diablo 4 Compare.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\obj\Debug\net6.0-windows\Diablo 4 Compare.pdb
+C:\Users\lcx\source\repos\Diablo 4 Compare\obj\Debug\net6.0-windows\Diablo 4 Compare.genruntimeconfig.cache
+C:\Users\lcx\source\repos\Diablo 4 Compare\obj\Debug\net6.0-windows\ref\Diablo 4 Compare.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\CsvHelper.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\obj\Debug\net6.0-windows\Diablo 4 Compare.csproj.CopyComplete
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\BitMiracle.LibTiff.NET.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\IronOcr.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\SixLabors.ImageSharp.Drawing.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\IronSoftware.Drawing.Common.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\SixLabors.ImageSharp.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x64\native\IronPdfInterop.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x64\native\Tesseract.Native.deployment.json
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x64\native\eng.base.traineddata
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x64\native\eng.best.traineddata
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x64\native\eng.fast.traineddata
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x64\native\eng.user-patterns
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x64\native\eng.user-words
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x64\native\liblept-5.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x64\native\libtesseract-5.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x64\native\osd.traineddata
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x64\native\pdf.ttf
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x64\native\pdf.ttx
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x86\native\IronPdfInterop.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x86\native\Tesseract.Native.deployment.json
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x86\native\eng.base.traineddata
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x86\native\eng.best.traineddata
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x86\native\eng.fast.traineddata
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x86\native\eng.user-patterns
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x86\native\eng.user-words
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x86\native\liblept-5.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x86\native\libtesseract-5.dll
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x86\native\osd.traineddata
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x86\native\pdf.ttf
+C:\Users\lcx\source\repos\Diablo 4 Compare\bin\Debug\net6.0-windows\runtimes\win-x86\native\pdf.ttx

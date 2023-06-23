@@ -1,0 +1,25 @@
+control,name
+AllDamage,All Damage
+DamageVsCC,Damage Vs CC
+DamageVsClose,Damage Vs Close
+DamageVsDistant,Damage Vs Distant
+DamageVsFrozen,Damage Vs Frozen
+DamageVsHealthy,Damage Vs Healthy
+DamageVsInjured,Damage Vs Injured
+DamageVsSlowed,Damage Vs Slowed
+DamageVsStunned,Damage Vs Stunned
+DamagewhileHealthy,Damage while Healthy
+DamagewhileFortified,Damage while Fortified
+DamagewithBasic,Damage with Basic
+DamagewithBlood,Damage with Blood
+DamagewithBone,Damage with Bone
+DamagewithCore,Damage with Core
+DamagewithDarkness,Damage with Darkness
+DamagewithMinions,Damage with Minions
+DamagewithPhysical,Damage with Physical
+DamagewithShadow,Damage with Shadow
+DamagewithShadowDoT,Damage with Shadow DoT
+DamagefromGolem,Damage from Golem
+DamagefromBloodOrb,Damage from Blood Orb
+DamagefromMages,Damage from Mages
+DamagefromWarriors,Damage from Warriors

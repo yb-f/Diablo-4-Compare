@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "8AbTbBzl2IlNRfWuCGA+WBl2iMNsVyewCNJSFw2qGa3puwJohcuvTVBzbmRB3kbRxtCascL5EHQzgWhwVQoRSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lcx\\source\\repos\\Diablo 4 Compare\\Diablo 4 Compare.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lcx\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649\\bitmiracle.libtiff.net.2.4.649.nupkg.sha512",
+    "C:\\Users\\lcx\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\lcx\\.nuget\\packages\\ironocr\\2023.6.6\\ironocr.2023.6.6.nupkg.sha512",
+    "C:\\Users\\lcx\\.nuget\\packages\\ironsoftware.system.drawing\\2023.6.1\\ironsoftware.system.drawing.2023.6.1.nupkg.sha512",
+    "C:\\Users\\lcx\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\lcx\\.nuget\\packages\\sixlabors.imagesharp\\3.0.0\\sixlabors.imagesharp.3.0.0.nupkg.sha512",
+    "C:\\Users\\lcx\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}
