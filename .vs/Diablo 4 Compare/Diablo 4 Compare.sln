@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diablo 4 Compare", "Diablo 4 Compare.csproj", "{B3CF4B5B-C3F0-40B7-9653-60C3262B6FB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3CF4B5B-C3F0-40B7-9653-60C3262B6FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3CF4B5B-C3F0-40B7-9653-60C3262B6FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3CF4B5B-C3F0-40B7-9653-60C3262B6FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3CF4B5B-C3F0-40B7-9653-60C3262B6FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1B9EB75-475B-42CB-B14E-64AF43B3F87C}
+	EndGlobalSection
+EndGlobal
