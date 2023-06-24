@@ -3,6 +3,7 @@ using IronOcr;
 using PopulateForm;
 using SixLabors.Fonts.Unicode;
 using System;
+using System.Configuration;
 using System.Diagnostics;
 using System.Globalization;
 using System.Threading.Channels;
@@ -63,6 +64,113 @@ namespace Diablo_4_Compare
             this.tabControl1.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
             this.tabControl1.DrawItem += new DrawItemEventHandler(this.tabControl1_DrawItem);
             pictureBox1.AllowDrop = true;
+            class_ComboBox.SelectedItem = Properties.Settings.Default.selected_class;
+            TableLayoutPanel skills_table = ((TableLayoutPanel)panel1.Controls["skillsTable"]);
+            TableLayoutPanel abs_table = ((TableLayoutPanel)panel2.Controls["absTable"]);
+            TableLayoutPanel glyph_table = ((TableLayoutPanel)panel3.Controls["glyphTable"]);
+            TableLayoutPanel mainstat_table = ((TableLayoutPanel)panel4.Controls["mainstat_Table"]);
+            TableLayoutPanel weapon1_table = ((TableLayoutPanel)panel4.Controls["weapon1_Table"]);
+            TableLayoutPanel weapon2_table = ((TableLayoutPanel)panel4.Controls["weapon2_Table"]);
+            TableLayoutPanel minmax1_table = ((TableLayoutPanel)panel4.Controls["MinMax1_Table"]);
+            TableLayoutPanel minmax2_table = ((TableLayoutPanel)panel4.Controls["MinMax2_Table"]);
+            int i = 1;
+            for (int d = 0; d + 1 <= skills_table.Controls.Count; d++)
+            {
+                if (d == 0 || d % 3 == 0)
+                {
+                    var val = Properties.Settings.Default.PropertyValues["skills_cb_" + i.ToString()];
+                    bool check = (bool)val.PropertyValue;
+                    CheckBox cb = skills_table.Controls[d] as CheckBox;
+                    cb.Checked = check;
+                    //cb.SetCurrentValue(CheckBox.IsCheckedProperty, check);
+                }
+                else if ((d + 1) % 3 == 0)
+                {
+                    var val = Properties.Settings.Default.PropertyValues["skills_text_" + i.ToString()];
+                    string t = (string)val.PropertyValue;
+                    TextBox tb = skills_table.Controls[d] as TextBox;
+                    tb.Text = t;
+                    i++;
+                }
+
+                //MessageBox.Show(Properties.Settings.Default.Properties["skills_cb_" + i.ToString()].Name.ToString() + " " + val.PropertyValue.ToString());
+            }
+            i = 1;
+            for (int d = 0; d + 1 <= abs_table.Controls.Count; d++)
+            {
+                if (d == 0 || d % 3 == 0)
+                {
+                    var val = Properties.Settings.Default.PropertyValues["abs_cb_" + i.ToString()];
+                    //MessageBox.Show(Properties.Settings.Default.Properties["abs_cb_" + i.ToString()].Name.ToString() + " " + val.PropertyValue.ToString());
+                    bool check = (bool)val.PropertyValue;
+                    CheckBox cb = abs_table.Controls[d] as CheckBox;
+                    cb.Checked = check;
+                    //cb.SetCurrentValue(CheckBox.IsCheckedProperty, check);
+                }
+                else if ((d + 1) % 3 == 0)
+                {
+                    var val = Properties.Settings.Default.PropertyValues["abs_text_" + i.ToString()];
+                    string t = (string)val.PropertyValue;
+                    TextBox tb = abs_table.Controls[d] as TextBox;
+                    tb.Text = t;
+                    i++;
+                }
+
+                //MessageBox.Show(Properties.Settings.Default.Properties["skills_cb_" + i.ToString()].Name.ToString() + " " + val.PropertyValue.ToString()); ;
+            }
+            i = 1;
+            for (int d = 0; d + 1 <= glyph_table.Controls.Count; d++)
+            {
+                if (d == 0 || d % 3 == 0)
+                {
+                    var val = Properties.Settings.Default.PropertyValues["glyph_cb_" + i.ToString()];
+                    //MessageBox.Show(Properties.Settings.Default.Properties["abs_cb_" + i.ToString()].Name.ToString() + " " + val.PropertyValue.ToString());
+                    bool check = (bool)val.PropertyValue;
+                    CheckBox cb = glyph_table.Controls[d] as CheckBox;
+                    cb.Checked = check;
+                    //cb.SetCurrentValue(CheckBox.IsCheckedProperty, check);
+                }
+                else if ((d + 1) % 3 == 0)
+                {
+                    var val = Properties.Settings.Default.PropertyValues["glyph_text_" + i.ToString()];
+                    string t = (string)val.PropertyValue;
+                    TextBox tb = glyph_table.Controls[d] as TextBox;
+                    tb.Text = t;
+                    i++;
+                }
+
+                //MessageBox.Show(Properties.Settings.Default.Properties["skills_cb_" + i.ToString()].Name.ToString() + " " + val.PropertyValue.ToString()); ;
+            }
+            mainStat_Text.Text = Properties.Settings.Default.mainStat;
+            skillDamage_Text.Text = Properties.Settings.Default.skillDamage;
+            weaponImplicit1_Combo.Text = Properties.Settings.Default.weapon1Implicit_Combo;
+            weaponImplicit1_Text.Text = Properties.Settings.Default.weapon1Implicit_Text;
+            weapon1Stat1_Combo.Text = Properties.Settings.Default.weapon1Stat1_Combo;
+            weapon1Stat2_Combo.Text = Properties.Settings.Default.weapon1Stat2_Combo;
+            weapon1Stat3_Combo.Text = Properties.Settings.Default.weapon1Stat3_Combo;
+            weapon1Stat4_Combo.Text = Properties.Settings.Default.weapon1Stat4_Combo;
+            weapon1Stat5_Combo.Text = Properties.Settings.Default.weapon1Stat5_Combo;
+            weapon1Stat1_Text.Text = Properties.Settings.Default.weapon1Stat1_Text;
+            weapon1Stat2_Text.Text = Properties.Settings.Default.weapon1Stat2_Text;
+            weapon1Stat3_Text.Text = Properties.Settings.Default.weapon1Stat3_Text;
+            weapon1Stat4_Text.Text = Properties.Settings.Default.weapon1Stat4_Text;
+            weapon1Stat5_Text.Text = Properties.Settings.Default.weapon1Stat5_Text;
+            weapon1Min_Text.Text = Properties.Settings.Default.weapon1Min_Text;
+            weapon1Max_Text.Text = Properties.Settings.Default.weapon1Max_Text;
+            weaponImplicit2_Combo.Text = Properties.Settings.Default.weapon2Implicit_Combo;
+            weaponImplicit2_Text.Text = Properties.Settings.Default.weapon2Implicit_Text;
+            weapon2Stat1_Combo.Text = Properties.Settings.Default.weapon2Stat1_Combo;
+            weapon2Stat2_Combo.Text = Properties.Settings.Default.weapon2Stat2_Combo;
+            weapon2Stat3_Combo.Text = Properties.Settings.Default.weapon2Stat3_Combo;
+            weapon2Stat4_Combo.Text = Properties.Settings.Default.weapon2Stat4_Combo;
+            weapon2Stat5_Combo.Text = Properties.Settings.Default.weapon2Stat5_Combo;
+            weapon2Stat1_Text.Text = Properties.Settings.Default.weapon2Stat1_Text;
+            weapon2Stat2_Text.Text = Properties.Settings.Default.weapon2Stat2_Text;
+            weapon2Stat3_Text.Text = Properties.Settings.Default.weapon2Stat3_Text;
+            weapon2Stat4_Text.Text = Properties.Settings.Default.weapon2Stat4_Text;
+            weapon2Stat5_Text.Text = Properties.Settings.Default.weapon2Stat5_Text;
+            weapon2Min_Text.Text = Properties.Settings.Default.weapon2Min_Text;
+            weapon2Max_Text.Text = Properties.Settings.Default.weapon2Max_Text;
         }
 
         private void tabControl1_DrawItem(object sender, DrawItemEventArgs e)
@@ -157,6 +265,172 @@ namespace Diablo_4_Compare
         private void label12_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            try
+            {
+                TableLayoutPanel skills_table = ((TableLayoutPanel)panel1.Controls["skillsTable"]);
+                TableLayoutPanel abs_table = ((TableLayoutPanel)panel2.Controls["absTable"]);
+                TableLayoutPanel glyph_table = ((TableLayoutPanel)panel3.Controls["glyphTable"]);
+                /*TableLayoutPanel mainstat_table = ((TableLayoutPanel)panel4.Controls["mainstat_Table"]);
+                TableLayoutPanel weapon1_table = ((TableLayoutPanel)panel4.Controls["weapon1_Table"]);
+                TableLayoutPanel weapon2_table = ((TableLayoutPanel)panel4.Controls["weapon2_Table"]);
+                TableLayoutPanel minmax1_table = ((TableLayoutPanel)panel4.Controls["MinMax1_Table"]);
+                TableLayoutPanel minmax2_table = ((TableLayoutPanel)panel4.Controls["MinMax2_Table"]);*/
+                int i = 0;
+                List<bool> checks = new List<bool>();
+                List<string> text_values = new List<string>();
+                foreach (Control c in skills_table.Controls)
+                {
+                    if (c.Name.ToString().Contains("_CB"))
+                    {
+                        CheckBox temp = c as CheckBox;
+                        if (temp.Checked == true)
+                        {
+                            checks.Add(true);
+                        }
+                        else
+                        {
+                            checks.Add(false);
+                        }
+                    }
+                    else if (c.Name.ToString().Contains("_Text"))
+                    {
+                        text_values.Add(c.Text);
+                    }
+                }
+                while (i < checks.Count)
+                {
+                    Properties.Settings.Default["skills_cb_" + (i + 1).ToString()] = checks[i];
+                    Properties.Settings.Default["skills_text_" + (i + 1).ToString()] = text_values[i];
+                    i++;
+                    /*foreach (SettingsProperty currentProperty in Properties.Settings.Default.Properties)
+                    {
+                        
+                        if (currentProperty.Name.ToString().Contains("skills_cb"))
+                        {
+                            Properties.Settings.Default[currentProperty.Name] = checks[i];
+                            i++;
+                        }
+                    }*/
+                }
+                checks.Clear();
+                text_values.Clear();
+                i = 0;
+                foreach (Control c in abs_table.Controls)
+                {
+                    if (c.Name.ToString().Contains("_CB"))
+                    {
+                        CheckBox temp = c as CheckBox;
+                        if (temp.Checked == true)
+                        {
+                            checks.Add(true);
+                        }
+                        else
+                        {
+                            checks.Add(false);
+                        }
+                    }
+                    else if (c.Name.ToString().Contains("_Text"))
+                    {
+                        text_values.Add(c.Text);
+                    }
+                }
+                while (i < checks.Count)
+                {
+                    Properties.Settings.Default["abs_cb_" + (i + 1).ToString()] = checks[i];
+                    Properties.Settings.Default["abs_text_" + (i + 1).ToString()] = text_values[i];
+                    i++;
+                    /*foreach (SettingsProperty currentProperty in Properties.Settings.Default.Properties)
+                    {
+                        
+                        if (currentProperty.Name.ToString().Contains("skills_cb"))
+                        {
+                            Properties.Settings.Default[currentProperty.Name] = checks[i];
+                            i++;
+                        }
+                    }*/
+                }
+                checks.Clear();
+                text_values.Clear();
+                i = 0;
+                foreach (Control c in glyph_table.Controls)
+                {
+                    if (c.Name.ToString().Contains("_CB"))
+                    {
+                        CheckBox temp = c as CheckBox;
+                        if (temp.Checked == true)
+                        {
+                            checks.Add(true);
+                        }
+                        else
+                        {
+                            checks.Add(false);
+                        }
+                    }
+                    else if (c.Name.ToString().Contains("_Text"))
+                    {
+                        text_values.Add(c.Text);
+                    }
+                }
+                while (i < checks.Count)
+                {
+                    Properties.Settings.Default["glyph_cb_" + (i + 1).ToString()] = checks[i];
+                    Properties.Settings.Default["glyph_text_" + (i + 1).ToString()] = text_values[i];
+                    i++;
+                    /*foreach (SettingsProperty currentProperty in Properties.Settings.Default.Properties)
+                    {
+                        
+                        if (currentProperty.Name.ToString().Contains("skills_cb"))
+                        {
+                            Properties.Settings.Default[currentProperty.Name] = checks[i];
+                            i++;
+                        }
+                    }*/
+                }
+                Properties.Settings.Default.mainStat = mainStat_Text.Text;
+                Properties.Settings.Default.skillDamage = skillDamage_Text.Text;
+                Properties.Settings.Default.weapon1Implicit_Combo = weaponImplicit1_Combo.Text;
+                Properties.Settings.Default.weapon1Implicit_Text = weaponImplicit1_Text.Text;
+                Properties.Settings.Default.weapon1Stat1_Combo = weapon1Stat1_Combo.Text;
+                Properties.Settings.Default.weapon1Stat2_Combo = weapon1Stat2_Combo.Text;
+                Properties.Settings.Default.weapon1Stat3_Combo = weapon1Stat3_Combo.Text;
+                Properties.Settings.Default.weapon1Stat4_Combo = weapon1Stat4_Combo.Text;
+                Properties.Settings.Default.weapon1Stat5_Combo = weapon1Stat5_Combo.Text;
+                Properties.Settings.Default.weapon1Stat1_Text = weapon1Stat1_Text.Text;
+                Properties.Settings.Default.weapon1Stat2_Text = weapon1Stat2_Text.Text;
+                Properties.Settings.Default.weapon1Stat3_Text = weapon1Stat3_Text.Text;
+                Properties.Settings.Default.weapon1Stat4_Text = weapon1Stat4_Text.Text;
+                Properties.Settings.Default.weapon1Stat5_Text = weapon1Stat5_Text.Text;
+                Properties.Settings.Default.weapon1Min_Text = weapon1Min_Text.Text;
+                Properties.Settings.Default.weapon1Max_Text = weapon1Max_Text.Text;
+                Properties.Settings.Default.weapon2Implicit_Combo = weaponImplicit2_Combo.Text;
+                Properties.Settings.Default.weapon2Implicit_Text = weaponImplicit2_Text.Text;
+                Properties.Settings.Default.weapon2Stat1_Combo = weapon2Stat1_Combo.Text;
+                Properties.Settings.Default.weapon2Stat2_Combo = weapon2Stat2_Combo.Text;
+                Properties.Settings.Default.weapon2Stat3_Combo = weapon2Stat3_Combo.Text;
+                Properties.Settings.Default.weapon2Stat4_Combo = weapon2Stat4_Combo.Text;
+                Properties.Settings.Default.weapon2Stat5_Combo = weapon2Stat5_Combo.Text;
+                Properties.Settings.Default.weapon2Stat1_Text = weapon2Stat1_Text.Text;
+                Properties.Settings.Default.weapon2Stat2_Text = weapon2Stat2_Text.Text;
+                Properties.Settings.Default.weapon2Stat3_Text = weapon2Stat3_Text.Text;
+                Properties.Settings.Default.weapon2Stat4_Text = weapon2Stat4_Text.Text;
+                Properties.Settings.Default.weapon2Stat5_Text = weapon2Stat5_Text.Text;
+                Properties.Settings.Default.weapon2Min_Text = weapon2Min_Text.Text;
+                Properties.Settings.Default.weapon2Max_Text = weapon2Max_Text.Text;
+                Properties.Settings.Default.selected_class = class_ComboBox.Text;
+            }
+            catch (NotSupportedException)
+            {
+            }
+            Properties.Settings.Default.Save();
         }
     }
 }

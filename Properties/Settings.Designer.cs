@@ -22,5 +22,2429 @@ namespace Diablo_4_Compare.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string selected_class {
+            get {
+                return ((string)(this["selected_class"]));
+            }
+            set {
+                this["selected_class"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_1 {
+            get {
+                return ((bool)(this["skills_cb_1"]));
+            }
+            set {
+                this["skills_cb_1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_2 {
+            get {
+                return ((bool)(this["skills_cb_2"]));
+            }
+            set {
+                this["skills_cb_2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_3 {
+            get {
+                return ((bool)(this["skills_cb_3"]));
+            }
+            set {
+                this["skills_cb_3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_4 {
+            get {
+                return ((bool)(this["skills_cb_4"]));
+            }
+            set {
+                this["skills_cb_4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_5 {
+            get {
+                return ((bool)(this["skills_cb_5"]));
+            }
+            set {
+                this["skills_cb_5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_6 {
+            get {
+                return ((bool)(this["skills_cb_6"]));
+            }
+            set {
+                this["skills_cb_6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_7 {
+            get {
+                return ((bool)(this["skills_cb_7"]));
+            }
+            set {
+                this["skills_cb_7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_8 {
+            get {
+                return ((bool)(this["skills_cb_8"]));
+            }
+            set {
+                this["skills_cb_8"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_9 {
+            get {
+                return ((bool)(this["skills_cb_9"]));
+            }
+            set {
+                this["skills_cb_9"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_10 {
+            get {
+                return ((bool)(this["skills_cb_10"]));
+            }
+            set {
+                this["skills_cb_10"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_11 {
+            get {
+                return ((bool)(this["skills_cb_11"]));
+            }
+            set {
+                this["skills_cb_11"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_12 {
+            get {
+                return ((bool)(this["skills_cb_12"]));
+            }
+            set {
+                this["skills_cb_12"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_13 {
+            get {
+                return ((bool)(this["skills_cb_13"]));
+            }
+            set {
+                this["skills_cb_13"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_14 {
+            get {
+                return ((bool)(this["skills_cb_14"]));
+            }
+            set {
+                this["skills_cb_14"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_15 {
+            get {
+                return ((bool)(this["skills_cb_15"]));
+            }
+            set {
+                this["skills_cb_15"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_16 {
+            get {
+                return ((bool)(this["skills_cb_16"]));
+            }
+            set {
+                this["skills_cb_16"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_17 {
+            get {
+                return ((bool)(this["skills_cb_17"]));
+            }
+            set {
+                this["skills_cb_17"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_18 {
+            get {
+                return ((bool)(this["skills_cb_18"]));
+            }
+            set {
+                this["skills_cb_18"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_19 {
+            get {
+                return ((bool)(this["skills_cb_19"]));
+            }
+            set {
+                this["skills_cb_19"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_20 {
+            get {
+                return ((bool)(this["skills_cb_20"]));
+            }
+            set {
+                this["skills_cb_20"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_21 {
+            get {
+                return ((bool)(this["skills_cb_21"]));
+            }
+            set {
+                this["skills_cb_21"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_22 {
+            get {
+                return ((bool)(this["skills_cb_22"]));
+            }
+            set {
+                this["skills_cb_22"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_23 {
+            get {
+                return ((bool)(this["skills_cb_23"]));
+            }
+            set {
+                this["skills_cb_23"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_24 {
+            get {
+                return ((bool)(this["skills_cb_24"]));
+            }
+            set {
+                this["skills_cb_24"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_25 {
+            get {
+                return ((bool)(this["skills_cb_25"]));
+            }
+            set {
+                this["skills_cb_25"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_26 {
+            get {
+                return ((bool)(this["skills_cb_26"]));
+            }
+            set {
+                this["skills_cb_26"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_27 {
+            get {
+                return ((bool)(this["skills_cb_27"]));
+            }
+            set {
+                this["skills_cb_27"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_28 {
+            get {
+                return ((bool)(this["skills_cb_28"]));
+            }
+            set {
+                this["skills_cb_28"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_29 {
+            get {
+                return ((bool)(this["skills_cb_29"]));
+            }
+            set {
+                this["skills_cb_29"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_30 {
+            get {
+                return ((bool)(this["skills_cb_30"]));
+            }
+            set {
+                this["skills_cb_30"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_31 {
+            get {
+                return ((bool)(this["skills_cb_31"]));
+            }
+            set {
+                this["skills_cb_31"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_32 {
+            get {
+                return ((bool)(this["skills_cb_32"]));
+            }
+            set {
+                this["skills_cb_32"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_33 {
+            get {
+                return ((bool)(this["skills_cb_33"]));
+            }
+            set {
+                this["skills_cb_33"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_34 {
+            get {
+                return ((bool)(this["skills_cb_34"]));
+            }
+            set {
+                this["skills_cb_34"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_35 {
+            get {
+                return ((bool)(this["skills_cb_35"]));
+            }
+            set {
+                this["skills_cb_35"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_36 {
+            get {
+                return ((bool)(this["skills_cb_36"]));
+            }
+            set {
+                this["skills_cb_36"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_37 {
+            get {
+                return ((bool)(this["skills_cb_37"]));
+            }
+            set {
+                this["skills_cb_37"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_38 {
+            get {
+                return ((bool)(this["skills_cb_38"]));
+            }
+            set {
+                this["skills_cb_38"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_39 {
+            get {
+                return ((bool)(this["skills_cb_39"]));
+            }
+            set {
+                this["skills_cb_39"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_40 {
+            get {
+                return ((bool)(this["skills_cb_40"]));
+            }
+            set {
+                this["skills_cb_40"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_41 {
+            get {
+                return ((bool)(this["skills_cb_41"]));
+            }
+            set {
+                this["skills_cb_41"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_42 {
+            get {
+                return ((bool)(this["skills_cb_42"]));
+            }
+            set {
+                this["skills_cb_42"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_43 {
+            get {
+                return ((bool)(this["skills_cb_43"]));
+            }
+            set {
+                this["skills_cb_43"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skills_cb_44 {
+            get {
+                return ((bool)(this["skills_cb_44"]));
+            }
+            set {
+                this["skills_cb_44"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_1 {
+            get {
+                return ((string)(this["skills_text_1"]));
+            }
+            set {
+                this["skills_text_1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_2 {
+            get {
+                return ((string)(this["skills_text_2"]));
+            }
+            set {
+                this["skills_text_2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_3 {
+            get {
+                return ((string)(this["skills_text_3"]));
+            }
+            set {
+                this["skills_text_3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_4 {
+            get {
+                return ((string)(this["skills_text_4"]));
+            }
+            set {
+                this["skills_text_4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_5 {
+            get {
+                return ((string)(this["skills_text_5"]));
+            }
+            set {
+                this["skills_text_5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_6 {
+            get {
+                return ((string)(this["skills_text_6"]));
+            }
+            set {
+                this["skills_text_6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_7 {
+            get {
+                return ((string)(this["skills_text_7"]));
+            }
+            set {
+                this["skills_text_7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_8 {
+            get {
+                return ((string)(this["skills_text_8"]));
+            }
+            set {
+                this["skills_text_8"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_9 {
+            get {
+                return ((string)(this["skills_text_9"]));
+            }
+            set {
+                this["skills_text_9"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_10 {
+            get {
+                return ((string)(this["skills_text_10"]));
+            }
+            set {
+                this["skills_text_10"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_11 {
+            get {
+                return ((string)(this["skills_text_11"]));
+            }
+            set {
+                this["skills_text_11"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_12 {
+            get {
+                return ((string)(this["skills_text_12"]));
+            }
+            set {
+                this["skills_text_12"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_13 {
+            get {
+                return ((string)(this["skills_text_13"]));
+            }
+            set {
+                this["skills_text_13"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_14 {
+            get {
+                return ((string)(this["skills_text_14"]));
+            }
+            set {
+                this["skills_text_14"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_15 {
+            get {
+                return ((string)(this["skills_text_15"]));
+            }
+            set {
+                this["skills_text_15"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_16 {
+            get {
+                return ((string)(this["skills_text_16"]));
+            }
+            set {
+                this["skills_text_16"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_17 {
+            get {
+                return ((string)(this["skills_text_17"]));
+            }
+            set {
+                this["skills_text_17"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_18 {
+            get {
+                return ((string)(this["skills_text_18"]));
+            }
+            set {
+                this["skills_text_18"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_19 {
+            get {
+                return ((string)(this["skills_text_19"]));
+            }
+            set {
+                this["skills_text_19"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_20 {
+            get {
+                return ((string)(this["skills_text_20"]));
+            }
+            set {
+                this["skills_text_20"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_21 {
+            get {
+                return ((string)(this["skills_text_21"]));
+            }
+            set {
+                this["skills_text_21"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_22 {
+            get {
+                return ((string)(this["skills_text_22"]));
+            }
+            set {
+                this["skills_text_22"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_23 {
+            get {
+                return ((string)(this["skills_text_23"]));
+            }
+            set {
+                this["skills_text_23"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_24 {
+            get {
+                return ((string)(this["skills_text_24"]));
+            }
+            set {
+                this["skills_text_24"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_25 {
+            get {
+                return ((string)(this["skills_text_25"]));
+            }
+            set {
+                this["skills_text_25"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_26 {
+            get {
+                return ((string)(this["skills_text_26"]));
+            }
+            set {
+                this["skills_text_26"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_27 {
+            get {
+                return ((string)(this["skills_text_27"]));
+            }
+            set {
+                this["skills_text_27"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_28 {
+            get {
+                return ((string)(this["skills_text_28"]));
+            }
+            set {
+                this["skills_text_28"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_29 {
+            get {
+                return ((string)(this["skills_text_29"]));
+            }
+            set {
+                this["skills_text_29"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_30 {
+            get {
+                return ((string)(this["skills_text_30"]));
+            }
+            set {
+                this["skills_text_30"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_31 {
+            get {
+                return ((string)(this["skills_text_31"]));
+            }
+            set {
+                this["skills_text_31"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_32 {
+            get {
+                return ((string)(this["skills_text_32"]));
+            }
+            set {
+                this["skills_text_32"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_33 {
+            get {
+                return ((string)(this["skills_text_33"]));
+            }
+            set {
+                this["skills_text_33"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_34 {
+            get {
+                return ((string)(this["skills_text_34"]));
+            }
+            set {
+                this["skills_text_34"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_35 {
+            get {
+                return ((string)(this["skills_text_35"]));
+            }
+            set {
+                this["skills_text_35"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_36 {
+            get {
+                return ((string)(this["skills_text_36"]));
+            }
+            set {
+                this["skills_text_36"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_37 {
+            get {
+                return ((string)(this["skills_text_37"]));
+            }
+            set {
+                this["skills_text_37"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_38 {
+            get {
+                return ((string)(this["skills_text_38"]));
+            }
+            set {
+                this["skills_text_38"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_39 {
+            get {
+                return ((string)(this["skills_text_39"]));
+            }
+            set {
+                this["skills_text_39"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_40 {
+            get {
+                return ((string)(this["skills_text_40"]));
+            }
+            set {
+                this["skills_text_40"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_41 {
+            get {
+                return ((string)(this["skills_text_41"]));
+            }
+            set {
+                this["skills_text_41"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_42 {
+            get {
+                return ((string)(this["skills_text_42"]));
+            }
+            set {
+                this["skills_text_42"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_43 {
+            get {
+                return ((string)(this["skills_text_43"]));
+            }
+            set {
+                this["skills_text_43"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_44 {
+            get {
+                return ((string)(this["skills_text_44"]));
+            }
+            set {
+                this["skills_text_44"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skills_text_45 {
+            get {
+                return ((string)(this["skills_text_45"]));
+            }
+            set {
+                this["skills_text_45"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_1 {
+            get {
+                return ((bool)(this["abs_cb_1"]));
+            }
+            set {
+                this["abs_cb_1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_2 {
+            get {
+                return ((bool)(this["abs_cb_2"]));
+            }
+            set {
+                this["abs_cb_2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_3 {
+            get {
+                return ((bool)(this["abs_cb_3"]));
+            }
+            set {
+                this["abs_cb_3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_4 {
+            get {
+                return ((bool)(this["abs_cb_4"]));
+            }
+            set {
+                this["abs_cb_4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_5 {
+            get {
+                return ((bool)(this["abs_cb_5"]));
+            }
+            set {
+                this["abs_cb_5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_6 {
+            get {
+                return ((bool)(this["abs_cb_6"]));
+            }
+            set {
+                this["abs_cb_6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_7 {
+            get {
+                return ((bool)(this["abs_cb_7"]));
+            }
+            set {
+                this["abs_cb_7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_8 {
+            get {
+                return ((bool)(this["abs_cb_8"]));
+            }
+            set {
+                this["abs_cb_8"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_9 {
+            get {
+                return ((bool)(this["abs_cb_9"]));
+            }
+            set {
+                this["abs_cb_9"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_10 {
+            get {
+                return ((bool)(this["abs_cb_10"]));
+            }
+            set {
+                this["abs_cb_10"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_11 {
+            get {
+                return ((bool)(this["abs_cb_11"]));
+            }
+            set {
+                this["abs_cb_11"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_12 {
+            get {
+                return ((bool)(this["abs_cb_12"]));
+            }
+            set {
+                this["abs_cb_12"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_13 {
+            get {
+                return ((bool)(this["abs_cb_13"]));
+            }
+            set {
+                this["abs_cb_13"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_14 {
+            get {
+                return ((bool)(this["abs_cb_14"]));
+            }
+            set {
+                this["abs_cb_14"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_15 {
+            get {
+                return ((bool)(this["abs_cb_15"]));
+            }
+            set {
+                this["abs_cb_15"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_16 {
+            get {
+                return ((bool)(this["abs_cb_16"]));
+            }
+            set {
+                this["abs_cb_16"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_17 {
+            get {
+                return ((bool)(this["abs_cb_17"]));
+            }
+            set {
+                this["abs_cb_17"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_18 {
+            get {
+                return ((bool)(this["abs_cb_18"]));
+            }
+            set {
+                this["abs_cb_18"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_19 {
+            get {
+                return ((bool)(this["abs_cb_19"]));
+            }
+            set {
+                this["abs_cb_19"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_20 {
+            get {
+                return ((bool)(this["abs_cb_20"]));
+            }
+            set {
+                this["abs_cb_20"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_21 {
+            get {
+                return ((bool)(this["abs_cb_21"]));
+            }
+            set {
+                this["abs_cb_21"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_22 {
+            get {
+                return ((bool)(this["abs_cb_22"]));
+            }
+            set {
+                this["abs_cb_22"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_23 {
+            get {
+                return ((bool)(this["abs_cb_23"]));
+            }
+            set {
+                this["abs_cb_23"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_24 {
+            get {
+                return ((bool)(this["abs_cb_24"]));
+            }
+            set {
+                this["abs_cb_24"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_25 {
+            get {
+                return ((bool)(this["abs_cb_25"]));
+            }
+            set {
+                this["abs_cb_25"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_26 {
+            get {
+                return ((bool)(this["abs_cb_26"]));
+            }
+            set {
+                this["abs_cb_26"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_27 {
+            get {
+                return ((bool)(this["abs_cb_27"]));
+            }
+            set {
+                this["abs_cb_27"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_28 {
+            get {
+                return ((bool)(this["abs_cb_28"]));
+            }
+            set {
+                this["abs_cb_28"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool abs_cb_29 {
+            get {
+                return ((bool)(this["abs_cb_29"]));
+            }
+            set {
+                this["abs_cb_29"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_1 {
+            get {
+                return ((string)(this["abs_text_1"]));
+            }
+            set {
+                this["abs_text_1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_2 {
+            get {
+                return ((string)(this["abs_text_2"]));
+            }
+            set {
+                this["abs_text_2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_3 {
+            get {
+                return ((string)(this["abs_text_3"]));
+            }
+            set {
+                this["abs_text_3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_4 {
+            get {
+                return ((string)(this["abs_text_4"]));
+            }
+            set {
+                this["abs_text_4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_5 {
+            get {
+                return ((string)(this["abs_text_5"]));
+            }
+            set {
+                this["abs_text_5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_6 {
+            get {
+                return ((string)(this["abs_text_6"]));
+            }
+            set {
+                this["abs_text_6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_7 {
+            get {
+                return ((string)(this["abs_text_7"]));
+            }
+            set {
+                this["abs_text_7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_8 {
+            get {
+                return ((string)(this["abs_text_8"]));
+            }
+            set {
+                this["abs_text_8"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_9 {
+            get {
+                return ((string)(this["abs_text_9"]));
+            }
+            set {
+                this["abs_text_9"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_10 {
+            get {
+                return ((string)(this["abs_text_10"]));
+            }
+            set {
+                this["abs_text_10"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_11 {
+            get {
+                return ((string)(this["abs_text_11"]));
+            }
+            set {
+                this["abs_text_11"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_12 {
+            get {
+                return ((string)(this["abs_text_12"]));
+            }
+            set {
+                this["abs_text_12"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_13 {
+            get {
+                return ((string)(this["abs_text_13"]));
+            }
+            set {
+                this["abs_text_13"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_14 {
+            get {
+                return ((string)(this["abs_text_14"]));
+            }
+            set {
+                this["abs_text_14"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_15 {
+            get {
+                return ((string)(this["abs_text_15"]));
+            }
+            set {
+                this["abs_text_15"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_16 {
+            get {
+                return ((string)(this["abs_text_16"]));
+            }
+            set {
+                this["abs_text_16"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_17 {
+            get {
+                return ((string)(this["abs_text_17"]));
+            }
+            set {
+                this["abs_text_17"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_18 {
+            get {
+                return ((string)(this["abs_text_18"]));
+            }
+            set {
+                this["abs_text_18"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_19 {
+            get {
+                return ((string)(this["abs_text_19"]));
+            }
+            set {
+                this["abs_text_19"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_20 {
+            get {
+                return ((string)(this["abs_text_20"]));
+            }
+            set {
+                this["abs_text_20"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_21 {
+            get {
+                return ((string)(this["abs_text_21"]));
+            }
+            set {
+                this["abs_text_21"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_22 {
+            get {
+                return ((string)(this["abs_text_22"]));
+            }
+            set {
+                this["abs_text_22"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_23 {
+            get {
+                return ((string)(this["abs_text_23"]));
+            }
+            set {
+                this["abs_text_23"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_24 {
+            get {
+                return ((string)(this["abs_text_24"]));
+            }
+            set {
+                this["abs_text_24"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_25 {
+            get {
+                return ((string)(this["abs_text_25"]));
+            }
+            set {
+                this["abs_text_25"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_26 {
+            get {
+                return ((string)(this["abs_text_26"]));
+            }
+            set {
+                this["abs_text_26"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_27 {
+            get {
+                return ((string)(this["abs_text_27"]));
+            }
+            set {
+                this["abs_text_27"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_28 {
+            get {
+                return ((string)(this["abs_text_28"]));
+            }
+            set {
+                this["abs_text_28"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string abs_text_29 {
+            get {
+                return ((string)(this["abs_text_29"]));
+            }
+            set {
+                this["abs_text_29"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool glyph_cb_1 {
+            get {
+                return ((bool)(this["glyph_cb_1"]));
+            }
+            set {
+                this["glyph_cb_1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool glyph_cb_2 {
+            get {
+                return ((bool)(this["glyph_cb_2"]));
+            }
+            set {
+                this["glyph_cb_2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool glyph_cb_3 {
+            get {
+                return ((bool)(this["glyph_cb_3"]));
+            }
+            set {
+                this["glyph_cb_3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool glyph_cb_4 {
+            get {
+                return ((bool)(this["glyph_cb_4"]));
+            }
+            set {
+                this["glyph_cb_4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool glyph_cb_5 {
+            get {
+                return ((bool)(this["glyph_cb_5"]));
+            }
+            set {
+                this["glyph_cb_5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool glyph_cb_6 {
+            get {
+                return ((bool)(this["glyph_cb_6"]));
+            }
+            set {
+                this["glyph_cb_6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool glyph_cb_7 {
+            get {
+                return ((bool)(this["glyph_cb_7"]));
+            }
+            set {
+                this["glyph_cb_7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool glyph_cb_8 {
+            get {
+                return ((bool)(this["glyph_cb_8"]));
+            }
+            set {
+                this["glyph_cb_8"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool glyph_cb_9 {
+            get {
+                return ((bool)(this["glyph_cb_9"]));
+            }
+            set {
+                this["glyph_cb_9"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool glyph_cb_10 {
+            get {
+                return ((bool)(this["glyph_cb_10"]));
+            }
+            set {
+                this["glyph_cb_10"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool glyph_cb_11 {
+            get {
+                return ((bool)(this["glyph_cb_11"]));
+            }
+            set {
+                this["glyph_cb_11"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool glyph_cb_12 {
+            get {
+                return ((bool)(this["glyph_cb_12"]));
+            }
+            set {
+                this["glyph_cb_12"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string glyph_text_1 {
+            get {
+                return ((string)(this["glyph_text_1"]));
+            }
+            set {
+                this["glyph_text_1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string glyph_text_2 {
+            get {
+                return ((string)(this["glyph_text_2"]));
+            }
+            set {
+                this["glyph_text_2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string glyph_text_3 {
+            get {
+                return ((string)(this["glyph_text_3"]));
+            }
+            set {
+                this["glyph_text_3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string glyph_text_4 {
+            get {
+                return ((string)(this["glyph_text_4"]));
+            }
+            set {
+                this["glyph_text_4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string glyph_text_5 {
+            get {
+                return ((string)(this["glyph_text_5"]));
+            }
+            set {
+                this["glyph_text_5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string glyph_text_6 {
+            get {
+                return ((string)(this["glyph_text_6"]));
+            }
+            set {
+                this["glyph_text_6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string glyph_text_7 {
+            get {
+                return ((string)(this["glyph_text_7"]));
+            }
+            set {
+                this["glyph_text_7"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string glyph_text_8 {
+            get {
+                return ((string)(this["glyph_text_8"]));
+            }
+            set {
+                this["glyph_text_8"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string glyph_text_9 {
+            get {
+                return ((string)(this["glyph_text_9"]));
+            }
+            set {
+                this["glyph_text_9"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string glyph_text_10 {
+            get {
+                return ((string)(this["glyph_text_10"]));
+            }
+            set {
+                this["glyph_text_10"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string glyph_text_11 {
+            get {
+                return ((string)(this["glyph_text_11"]));
+            }
+            set {
+                this["glyph_text_11"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string glyph_text_12 {
+            get {
+                return ((string)(this["glyph_text_12"]));
+            }
+            set {
+                this["glyph_text_12"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string mainStat {
+            get {
+                return ((string)(this["mainStat"]));
+            }
+            set {
+                this["mainStat"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string skillDamage {
+            get {
+                return ((string)(this["skillDamage"]));
+            }
+            set {
+                this["skillDamage"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon1Implicit_Combo {
+            get {
+                return ((string)(this["weapon1Implicit_Combo"]));
+            }
+            set {
+                this["weapon1Implicit_Combo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon1Implicit_Text {
+            get {
+                return ((string)(this["weapon1Implicit_Text"]));
+            }
+            set {
+                this["weapon1Implicit_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon1Stat1_Combo {
+            get {
+                return ((string)(this["weapon1Stat1_Combo"]));
+            }
+            set {
+                this["weapon1Stat1_Combo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon1Stat2_Combo {
+            get {
+                return ((string)(this["weapon1Stat2_Combo"]));
+            }
+            set {
+                this["weapon1Stat2_Combo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon1Stat3_Combo {
+            get {
+                return ((string)(this["weapon1Stat3_Combo"]));
+            }
+            set {
+                this["weapon1Stat3_Combo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon1Stat4_Combo {
+            get {
+                return ((string)(this["weapon1Stat4_Combo"]));
+            }
+            set {
+                this["weapon1Stat4_Combo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon1Stat5_Combo {
+            get {
+                return ((string)(this["weapon1Stat5_Combo"]));
+            }
+            set {
+                this["weapon1Stat5_Combo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon1Stat1_Text {
+            get {
+                return ((string)(this["weapon1Stat1_Text"]));
+            }
+            set {
+                this["weapon1Stat1_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon1Stat2_Text {
+            get {
+                return ((string)(this["weapon1Stat2_Text"]));
+            }
+            set {
+                this["weapon1Stat2_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon1Stat3_Text {
+            get {
+                return ((string)(this["weapon1Stat3_Text"]));
+            }
+            set {
+                this["weapon1Stat3_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon1Stat4_Text {
+            get {
+                return ((string)(this["weapon1Stat4_Text"]));
+            }
+            set {
+                this["weapon1Stat4_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon1Stat5_Text {
+            get {
+                return ((string)(this["weapon1Stat5_Text"]));
+            }
+            set {
+                this["weapon1Stat5_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon1Min_Text {
+            get {
+                return ((string)(this["weapon1Min_Text"]));
+            }
+            set {
+                this["weapon1Min_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon1Max_Text {
+            get {
+                return ((string)(this["weapon1Max_Text"]));
+            }
+            set {
+                this["weapon1Max_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon2Implicit_Combo {
+            get {
+                return ((string)(this["weapon2Implicit_Combo"]));
+            }
+            set {
+                this["weapon2Implicit_Combo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon2Implicit_Text {
+            get {
+                return ((string)(this["weapon2Implicit_Text"]));
+            }
+            set {
+                this["weapon2Implicit_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon2Stat1_Combo {
+            get {
+                return ((string)(this["weapon2Stat1_Combo"]));
+            }
+            set {
+                this["weapon2Stat1_Combo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon2Stat2_Combo {
+            get {
+                return ((string)(this["weapon2Stat2_Combo"]));
+            }
+            set {
+                this["weapon2Stat2_Combo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon2Stat3_Combo {
+            get {
+                return ((string)(this["weapon2Stat3_Combo"]));
+            }
+            set {
+                this["weapon2Stat3_Combo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon2Stat4_Combo {
+            get {
+                return ((string)(this["weapon2Stat4_Combo"]));
+            }
+            set {
+                this["weapon2Stat4_Combo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon2Stat5_Combo {
+            get {
+                return ((string)(this["weapon2Stat5_Combo"]));
+            }
+            set {
+                this["weapon2Stat5_Combo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon2Stat1_Text {
+            get {
+                return ((string)(this["weapon2Stat1_Text"]));
+            }
+            set {
+                this["weapon2Stat1_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon2Stat2_Text {
+            get {
+                return ((string)(this["weapon2Stat2_Text"]));
+            }
+            set {
+                this["weapon2Stat2_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon2Stat3_Text {
+            get {
+                return ((string)(this["weapon2Stat3_Text"]));
+            }
+            set {
+                this["weapon2Stat3_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon2Stat4_Text {
+            get {
+                return ((string)(this["weapon2Stat4_Text"]));
+            }
+            set {
+                this["weapon2Stat4_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon2Stat5_Text {
+            get {
+                return ((string)(this["weapon2Stat5_Text"]));
+            }
+            set {
+                this["weapon2Stat5_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon2Min_Text {
+            get {
+                return ((string)(this["weapon2Min_Text"]));
+            }
+            set {
+                this["weapon2Min_Text"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string weapon2Max_Text {
+            get {
+                return ((string)(this["weapon2Max_Text"]));
+            }
+            set {
+                this["weapon2Max_Text"] = value;
+            }
+        }
     }
 }

@@ -3,6 +3,7 @@ using CsvHelper.Configuration.Attributes;
 using Diablo_4_Compare;
 using IronOcr;
 using System;
+using System.Configuration;
 using System.Globalization;
 using System.Reflection.Metadata.Ecma335;
 using System.Windows.Forms;
@@ -26,6 +27,7 @@ namespace Diablo_4_Compare
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }
+
     }
 
     public class Calculate
@@ -39,7 +41,7 @@ namespace Diablo_4_Compare
             double csd = 0;
             double vuln = 1;
             double opc = 0;
-            double opd = 0;
+            double opd = 1;
             int healthfort = 0;
             double sac_opd = 1;
             double sac_csd = 1;
@@ -177,10 +179,10 @@ namespace Diablo_4_Compare
                         {
                             case var _ when glyph_table.Controls[i].Name.Contains("Cleaver"):
                             case var _ when glyph_table.Controls[i].Name.Contains("Essence"):
-                                csd = csd * (1 + (Convert.ToDouble(glyph_table.Controls[i].Text) / 100));
+                                csd_mult = csd_mult * (1 + (Convert.ToDouble(glyph_table.Controls[i].Text) / 100));
                                 break;
                             case var _ when glyph_table.Controls[i].Name.Contains("crusher"):
-                                opd = opd * (1 + (Convert.ToDouble(glyph_table.Controls[i].Text) / 100));
+                                opd_mult = opd_mult * (1 + (Convert.ToDouble(glyph_table.Controls[i].Text) / 100));
                                 break;
                             default:
                                 multiplicative = multiplicative * (1 + (Convert.ToDouble(glyph_table.Controls[i].Text) / 100));
@@ -193,8 +195,6 @@ namespace Diablo_4_Compare
             double skillDamage = (Convert.ToDouble(mainstat_table.Controls["skillDamage_Text"].Text) / 100);
             int weapon1_min = Convert.ToInt32(weapon1_table.Controls["weapon1Min_Text"].Text);
             int weapon1_max = Convert.ToInt32(weapon1_table.Controls["weapon1Max_Text"].Text);
-            //int weapon2_min = Convert.ToInt32(weapon2_table.Controls["weapon2Min_Text"].Text);
-            //int weapon2_max = Convert.ToInt32(weapon2_table.Controls["weapon2Max_Text"].Text);
             double weapon1_dam_base_min = ((((weapon1_min + weapon1_max) / 2) * 0.9 )* skillDamage) * (1 + (mainStat * 0.001));
             double weapon1_dam_base_max = ((((weapon1_min + weapon1_max) / 2) * 1.1) * skillDamage) * (1 + (mainStat * 0.001));
             double additive1 = additive + (zerk_bonus * zerk_mult);
@@ -214,7 +214,6 @@ namespace Diablo_4_Compare
             double weapon1_average_max = weapon1_total_base_dam_max * (1 + ((csc * csc_mult) * (csd * csd_mult))) + (((healthfort * (additive1 * multiplicative)) * (opd * opd_mult)) * opc);
             minmax1_table.Controls["weapon1AvgMin_Lbl"].Text = weapon1_average_min.ToString("N1");
             minmax1_table.Controls["weapon1AvgMax_Lbl"].Text = weapon1_average_max.ToString("N1");
-
             string skill_name = "";
             List<Control> combo_boxes = new List<Control>();
             combo_boxes.Add(weapon1_table.Controls["weaponImplicit1_Combo"]);
@@ -254,7 +253,7 @@ namespace Diablo_4_Compare
                         }
                         else if (skill_name.Equals("DamagewhileBerserking"))
                         {
-                            zerk_bonus = 0 + Convert.ToInt32 (skills_table.Controls["DamagewhileBerserking_Text"].Text) - Convert.ToInt32(tb.Text);
+                            zerk_bonus = 0 + (Convert.ToDouble(skills_table.Controls["DamagewhileBerserking_Text"].Text) / 100) - (Convert.ToDouble(tb.Text) / 100) + 0.25;
                         }
                         else
                         {
@@ -299,6 +298,10 @@ namespace Diablo_4_Compare
                         {
                             vuln = vuln + (Convert.ToDouble(tb.Text) / 100);
                         }
+                        else if (skill_name.Equals("DamagewhileBerserking"))
+                        {
+                            zerk_bonus = zerk_bonus + (Convert.ToDouble(tb.Text) / 100);
+                        }
                         else
                         {
                             additive = additive + (Convert.ToDouble(tb.Text) / 100);
@@ -328,7 +331,6 @@ namespace Diablo_4_Compare
             double weapon2_average_max = weapon2_total_base_dam_max * (1 + ((csc * csc_mult) * (csd * csd_mult))) + (((healthfort * (additive2 * multiplicative)) * (opd * opd_mult)) * opc);
             minmax2_table.Controls["weapon2AvgMin_Lbl"].Text = weapon2_average_min.ToString("N1");
             minmax2_table.Controls["weapon2AvgMax_Lbl"].Text = weapon2_average_max.ToString("N1");
-            //return (additive, additive, additive, additive, additive, additive, additive, additive);
         }
 
         public static string Get_Stat_Name(string combo_value)

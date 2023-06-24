@@ -1425,6 +1425,7 @@
             MaximizeBox = false;
             Name = "Form1";
             Text = "Diablo IV Weapon Compare";
+            FormClosing += Form1_FormClosing;
             Load += Form1_Load;
             tabControl1.ResumeLayout(false);
             comparePage2.ResumeLayout(false);
