@@ -54,7 +54,126 @@ namespace Diablo_4_Compare
             {
                 MessageBox.Show("Please make sure Class, Main Stat, Skill Damage, and Weapon Damages (at a minimum) are filled in.", "Ooops!");
             }
-
+            if (Convert.ToDouble(weapon1BaseMin_Lbl.Text) > Convert.ToDouble(weapon2BaseMin_Lbl.Text))
+            {
+                weapon1BaseMin_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+                weapon2BaseMin_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+            }
+            else if (Convert.ToDouble(weapon1BaseMin_Lbl.Text) < Convert.ToDouble(weapon2BaseMin_Lbl.Text))
+            {
+                weapon1BaseMin_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+                weapon2BaseMin_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+            }
+            else
+            {
+                weapon1BaseMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+                weapon2BaseMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+            }
+            if (Convert.ToDouble(weapon1BaseMax_Lbl.Text) > Convert.ToDouble(weapon2BaseMax_Lbl.Text))
+            {
+                weapon1BaseMax_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+                weapon2BaseMax_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+            }
+            else if (Convert.ToDouble(weapon1BaseMax_Lbl.Text) < Convert.ToDouble(weapon2BaseMax_Lbl.Text))
+            {
+                weapon1BaseMax_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+                weapon2BaseMax_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+            }
+            else
+            {
+                weapon1BaseMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+                weapon2BaseMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+            }
+            if (Convert.ToDouble(weapon1CritMin_Lbl.Text) > Convert.ToDouble(weapon2CritMin_Lbl.Text))
+            {
+                weapon1CritMin_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+                weapon2CritMin_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+            }
+            else if (Convert.ToDouble(weapon1CritMin_Lbl.Text) < Convert.ToDouble(weapon2CritMin_Lbl.Text))
+            {
+                weapon1CritMin_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+                weapon2CritMin_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+            }
+            else
+            {
+                weapon1CritMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+                weapon2CritMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+            }
+            if (Convert.ToDouble(weapon1CritMax_Lbl.Text) > Convert.ToDouble(weapon2CritMax_Lbl.Text))
+            {
+                weapon1CritMax_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+                weapon2CritMax_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+            }
+            else if (Convert.ToDouble(weapon1CritMax_Lbl.Text) < Convert.ToDouble(weapon2CritMax_Lbl.Text))
+            {
+                weapon1CritMax_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+                weapon2CritMax_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+            }
+            else
+            {
+                weapon1CritMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+                weapon2CritMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+            }
+            if (Convert.ToDouble(weapon1AvgMin_Lbl.Text) > Convert.ToDouble(weapon2AvgMin_Lbl.Text))
+            {
+                weapon1AvgMin_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+                weapon2AvgMin_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+            }
+            else if (Convert.ToDouble(weapon1AvgMin_Lbl.Text) < Convert.ToDouble(weapon2AvgMin_Lbl.Text))
+            {
+                weapon1AvgMin_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+                weapon2AvgMin_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+            }
+            else
+            {
+                weapon1AvgMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+                weapon2AvgMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+            }
+            if (Convert.ToDouble(weapon1AvgMax_Lbl.Text) > Convert.ToDouble(weapon2AvgMax_Lbl.Text))
+            {
+                weapon1AvgMax_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+                weapon2AvgMax_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+            }
+            else if (Convert.ToDouble(weapon1AvgMax_Lbl.Text) < Convert.ToDouble(weapon2AvgMax_Lbl.Text))
+            {
+                weapon1AvgMax_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+                weapon2AvgMax_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+            }
+            else
+            {
+                weapon1AvgMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+                weapon2AvgMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+            }
+            if (Convert.ToDouble(weapon1OPMin_Lbl.Text) > Convert.ToDouble(weapon2OPMin_Lbl.Text))
+            {
+                weapon1OPMin_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+                weapon2OPMin_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+            }
+            else if (Convert.ToDouble(weapon1OPMin_Lbl.Text) < Convert.ToDouble(weapon2OPMin_Lbl.Text))
+            {
+                weapon1OPMin_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+                weapon2OPMin_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+            }
+            else
+            {
+                weapon1OPMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+                weapon2OPMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+            }
+            if (Convert.ToDouble(weapon1OPMax_Lbl.Text) > Convert.ToDouble(weapon2OPMax_Lbl.Text))
+            {
+                weapon1OPMax_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+                weapon2OPMax_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+            }
+            else if (Convert.ToDouble(weapon1OPMax_Lbl.Text) < Convert.ToDouble(weapon2OPMax_Lbl.Text))
+            {
+                weapon1OPMax_Lbl.ForeColor = System.Drawing.Color.IndianRed;
+                weapon2OPMax_Lbl.ForeColor = System.Drawing.Color.LimeGreen;
+            }
+            else
+            {
+                weapon1OPMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+                weapon2OPMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
+            }
             //string s = ((TextBox)panel1.Controls["skillsTable"].Controls["CriticalStrikeDamage_Text"]).Text;
             //MessageBox.Show(s);
         }
@@ -171,6 +290,22 @@ namespace Diablo_4_Compare
             weapon2Stat5_Text.Text = Properties.Settings.Default.weapon2Stat5_Text;
             weapon2Min_Text.Text = Properties.Settings.Default.weapon2Min_Text;
             weapon2Max_Text.Text = Properties.Settings.Default.weapon2Max_Text;
+            implicitPerUp.Text = Properties.Settings.Default.implicitPerUp;
+            implicitNumUp.Text = Properties.Settings.Default.implicitNumUp;
+            stat1PerUp.Text = Properties.Settings.Default.stat1PerUp;
+            stat2PerUp.Text = Properties.Settings.Default.stat2PerUp;
+            stat3PerUp.Text = Properties.Settings.Default.stat3PerUp;
+            stat4PerUp.Text = Properties.Settings.Default.stat4PerUp;
+            stat5PerUp.Text = Properties.Settings.Default.stat5PerUp;
+            stat1NumUp.Text = Properties.Settings.Default.stat1NumUp;
+            stat2NumUp.Text = Properties.Settings.Default.stat2NumUp;
+            stat3NumUp.Text = Properties.Settings.Default.stat3NumUp;
+            stat4NumUp.Text = Properties.Settings.Default.stat4NumUp;
+            stat5NumUp.Text = Properties.Settings.Default.stat5NumUp;
+            minPerUp.Text = Properties.Settings.Default.minPerUp;
+            minNumUp.Text = Properties.Settings.Default.minNumUp;
+            maxPerUp.Text = Properties.Settings.Default.maxPerUp;
+            maxNumUp.Text = Properties.Settings.Default.maxNumUp;
         }
 
         private void tabControl1_DrawItem(object sender, DrawItemEventArgs e)
@@ -426,6 +561,22 @@ namespace Diablo_4_Compare
                 Properties.Settings.Default.weapon2Min_Text = weapon2Min_Text.Text;
                 Properties.Settings.Default.weapon2Max_Text = weapon2Max_Text.Text;
                 Properties.Settings.Default.selected_class = class_ComboBox.Text;
+                Properties.Settings.Default.implicitPerUp = implicitPerUp.Text;
+                Properties.Settings.Default.implicitNumUp = implicitNumUp.Text;
+                Properties.Settings.Default.stat1PerUp = stat1PerUp.Text;
+                Properties.Settings.Default.stat2PerUp = stat2PerUp.Text;
+                Properties.Settings.Default.stat3PerUp = stat3PerUp.Text;
+                Properties.Settings.Default.stat4PerUp = stat4PerUp.Text;
+                Properties.Settings.Default.stat5PerUp = stat5PerUp.Text;
+                Properties.Settings.Default.stat1NumUp = stat1NumUp.Text;
+                Properties.Settings.Default.stat2NumUp = stat2NumUp.Text;
+                Properties.Settings.Default.stat3NumUp = stat3NumUp.Text;
+                Properties.Settings.Default.stat4NumUp = stat4NumUp.Text;
+                Properties.Settings.Default.stat5NumUp = stat5NumUp.Text;
+                Properties.Settings.Default.minPerUp = minPerUp.Text;
+                Properties.Settings.Default.minNumUp = minNumUp.Text;
+                Properties.Settings.Default.maxPerUp = maxPerUp.Text;
+                Properties.Settings.Default.maxNumUp = maxNumUp.Text;
             }
             catch (NotSupportedException)
             {

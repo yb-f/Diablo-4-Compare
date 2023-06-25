@@ -75,6 +75,24 @@
             skillDamage_Text = new TextBox();
             MainStat_Lbl = new Label();
             weapon2_Table = new TableLayoutPanel();
+            maxNumUp = new TextBox();
+            minNumUp = new TextBox();
+            stat5NumUp = new TextBox();
+            stat4NumUp = new TextBox();
+            stat3NumUp = new TextBox();
+            stat2NumUp = new TextBox();
+            stat1NumUp = new TextBox();
+            implicitNumUp = new TextBox();
+            maxPerUp = new TextBox();
+            minPerUp = new TextBox();
+            label19 = new Label();
+            label18 = new Label();
+            stat5PerUp = new TextBox();
+            stat4PerUp = new TextBox();
+            stat3PerUp = new TextBox();
+            stat2PerUp = new TextBox();
+            stat1PerUp = new TextBox();
+            implicitPerUp = new TextBox();
             weapon2Max_Text = new TextBox();
             weapon2Min_Text = new TextBox();
             label6 = new Label();
@@ -165,9 +183,9 @@
             // 
             // button1
             // 
-            button1.Location = new System.Drawing.Point(634, 448);
+            button1.Location = new System.Drawing.Point(576, 15);
             button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(103, 50);
+            button1.Size = new System.Drawing.Size(103, 37);
             button1.TabIndex = 31;
             button1.Text = "Compare";
             button1.UseVisualStyleBackColor = true;
@@ -235,7 +253,7 @@
             MinMax2_Table.Controls.Add(weapon2BaseMin_Lbl, 1, 0);
             MinMax2_Table.Controls.Add(label32, 0, 1);
             MinMax2_Table.Controls.Add(label33, 0, 0);
-            MinMax2_Table.Location = new System.Drawing.Point(847, 398);
+            MinMax2_Table.Location = new System.Drawing.Point(877, 398);
             MinMax2_Table.Name = "MinMax2_Table";
             MinMax2_Table.RowCount = 4;
             MinMax2_Table.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
@@ -251,7 +269,7 @@
             weapon2OPMax_Lbl.AutoSize = true;
             weapon2OPMax_Lbl.Dock = DockStyle.Fill;
             weapon2OPMax_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon2OPMax_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon2OPMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon2OPMax_Lbl.Location = new System.Drawing.Point(332, 75);
             weapon2OPMax_Lbl.Name = "weapon2OPMax_Lbl";
             weapon2OPMax_Lbl.Size = new System.Drawing.Size(148, 25);
@@ -263,7 +281,7 @@
             weapon2CritMax_Lbl.AutoSize = true;
             weapon2CritMax_Lbl.Dock = DockStyle.Fill;
             weapon2CritMax_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon2CritMax_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon2CritMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon2CritMax_Lbl.Location = new System.Drawing.Point(85, 75);
             weapon2CritMax_Lbl.Name = "weapon2CritMax_Lbl";
             weapon2CritMax_Lbl.Size = new System.Drawing.Size(114, 25);
@@ -275,7 +293,7 @@
             weapon2OPMin_Lbl.AutoSize = true;
             weapon2OPMin_Lbl.Dock = DockStyle.Fill;
             weapon2OPMin_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon2OPMin_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon2OPMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon2OPMin_Lbl.Location = new System.Drawing.Point(332, 50);
             weapon2OPMin_Lbl.Name = "weapon2OPMin_Lbl";
             weapon2OPMin_Lbl.Size = new System.Drawing.Size(148, 25);
@@ -287,7 +305,7 @@
             weapon2CritMin_Lbl.AutoSize = true;
             weapon2CritMin_Lbl.Dock = DockStyle.Fill;
             weapon2CritMin_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon2CritMin_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon2CritMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon2CritMin_Lbl.Location = new System.Drawing.Point(85, 50);
             weapon2CritMin_Lbl.Name = "weapon2CritMin_Lbl";
             weapon2CritMin_Lbl.Size = new System.Drawing.Size(114, 25);
@@ -299,7 +317,7 @@
             label22.AutoSize = true;
             label22.Dock = DockStyle.Fill;
             label22.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label22.ForeColor = System.Drawing.Color.PaleGreen;
+            label22.ForeColor = System.Drawing.Color.Plum;
             label22.Location = new System.Drawing.Point(205, 75);
             label22.Name = "label22";
             label22.Size = new System.Drawing.Size(121, 25);
@@ -312,7 +330,7 @@
             label23.AutoSize = true;
             label23.Dock = DockStyle.Fill;
             label23.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label23.ForeColor = System.Drawing.Color.PaleGreen;
+            label23.ForeColor = System.Drawing.Color.Plum;
             label23.Location = new System.Drawing.Point(3, 75);
             label23.Name = "label23";
             label23.Size = new System.Drawing.Size(76, 25);
@@ -325,7 +343,7 @@
             label24.AutoSize = true;
             label24.Dock = DockStyle.Fill;
             label24.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label24.ForeColor = System.Drawing.Color.PaleGreen;
+            label24.ForeColor = System.Drawing.Color.Plum;
             label24.Location = new System.Drawing.Point(205, 50);
             label24.Name = "label24";
             label24.Size = new System.Drawing.Size(121, 25);
@@ -338,7 +356,7 @@
             label25.AutoSize = true;
             label25.Dock = DockStyle.Fill;
             label25.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label25.ForeColor = System.Drawing.Color.PaleGreen;
+            label25.ForeColor = System.Drawing.Color.Plum;
             label25.Location = new System.Drawing.Point(3, 50);
             label25.Name = "label25";
             label25.Size = new System.Drawing.Size(76, 25);
@@ -351,7 +369,7 @@
             weapon2AvgMax_Lbl.AutoSize = true;
             weapon2AvgMax_Lbl.Dock = DockStyle.Fill;
             weapon2AvgMax_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon2AvgMax_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon2AvgMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon2AvgMax_Lbl.Location = new System.Drawing.Point(332, 25);
             weapon2AvgMax_Lbl.Name = "weapon2AvgMax_Lbl";
             weapon2AvgMax_Lbl.Size = new System.Drawing.Size(148, 25);
@@ -363,7 +381,7 @@
             weapon2AvgMin_Lbl.AutoSize = true;
             weapon2AvgMin_Lbl.Dock = DockStyle.Fill;
             weapon2AvgMin_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon2AvgMin_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon2AvgMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon2AvgMin_Lbl.Location = new System.Drawing.Point(332, 0);
             weapon2AvgMin_Lbl.Name = "weapon2AvgMin_Lbl";
             weapon2AvgMin_Lbl.Size = new System.Drawing.Size(148, 25);
@@ -375,7 +393,7 @@
             label28.AutoSize = true;
             label28.Dock = DockStyle.Fill;
             label28.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label28.ForeColor = System.Drawing.Color.PaleGreen;
+            label28.ForeColor = System.Drawing.Color.Plum;
             label28.Location = new System.Drawing.Point(205, 25);
             label28.Name = "label28";
             label28.Size = new System.Drawing.Size(121, 25);
@@ -388,7 +406,7 @@
             label29.AutoSize = true;
             label29.Dock = DockStyle.Fill;
             label29.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label29.ForeColor = System.Drawing.Color.PaleGreen;
+            label29.ForeColor = System.Drawing.Color.Plum;
             label29.Location = new System.Drawing.Point(205, 0);
             label29.Name = "label29";
             label29.Size = new System.Drawing.Size(121, 25);
@@ -401,7 +419,7 @@
             weapon2BaseMax_Lbl.AutoSize = true;
             weapon2BaseMax_Lbl.Dock = DockStyle.Fill;
             weapon2BaseMax_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon2BaseMax_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon2BaseMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon2BaseMax_Lbl.Location = new System.Drawing.Point(85, 25);
             weapon2BaseMax_Lbl.Name = "weapon2BaseMax_Lbl";
             weapon2BaseMax_Lbl.Size = new System.Drawing.Size(114, 25);
@@ -413,7 +431,7 @@
             weapon2BaseMin_Lbl.AutoSize = true;
             weapon2BaseMin_Lbl.Dock = DockStyle.Fill;
             weapon2BaseMin_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon2BaseMin_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon2BaseMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon2BaseMin_Lbl.Location = new System.Drawing.Point(85, 0);
             weapon2BaseMin_Lbl.Name = "weapon2BaseMin_Lbl";
             weapon2BaseMin_Lbl.Size = new System.Drawing.Size(114, 25);
@@ -425,7 +443,7 @@
             label32.AutoSize = true;
             label32.Dock = DockStyle.Fill;
             label32.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label32.ForeColor = System.Drawing.Color.PaleGreen;
+            label32.ForeColor = System.Drawing.Color.Plum;
             label32.Location = new System.Drawing.Point(3, 25);
             label32.Name = "label32";
             label32.Size = new System.Drawing.Size(76, 25);
@@ -438,7 +456,7 @@
             label33.AutoSize = true;
             label33.Dock = DockStyle.Fill;
             label33.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label33.ForeColor = System.Drawing.Color.PaleGreen;
+            label33.ForeColor = System.Drawing.Color.Plum;
             label33.Location = new System.Drawing.Point(3, 0);
             label33.Name = "label33";
             label33.Size = new System.Drawing.Size(76, 25);
@@ -485,7 +503,7 @@
             weapon1OPMax_Lbl.AutoSize = true;
             weapon1OPMax_Lbl.Dock = DockStyle.Fill;
             weapon1OPMax_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon1OPMax_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon1OPMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon1OPMax_Lbl.Location = new System.Drawing.Point(332, 75);
             weapon1OPMax_Lbl.Name = "weapon1OPMax_Lbl";
             weapon1OPMax_Lbl.Size = new System.Drawing.Size(148, 25);
@@ -497,7 +515,7 @@
             weapon1CritMax_Lbl.AutoSize = true;
             weapon1CritMax_Lbl.Dock = DockStyle.Fill;
             weapon1CritMax_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon1CritMax_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon1CritMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon1CritMax_Lbl.Location = new System.Drawing.Point(85, 75);
             weapon1CritMax_Lbl.Name = "weapon1CritMax_Lbl";
             weapon1CritMax_Lbl.Size = new System.Drawing.Size(114, 25);
@@ -509,7 +527,7 @@
             weapon1OPMin_Lbl.AutoSize = true;
             weapon1OPMin_Lbl.Dock = DockStyle.Fill;
             weapon1OPMin_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon1OPMin_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon1OPMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon1OPMin_Lbl.Location = new System.Drawing.Point(332, 50);
             weapon1OPMin_Lbl.Name = "weapon1OPMin_Lbl";
             weapon1OPMin_Lbl.Size = new System.Drawing.Size(148, 25);
@@ -521,7 +539,7 @@
             weapon1CritMin_Lbl.AutoSize = true;
             weapon1CritMin_Lbl.Dock = DockStyle.Fill;
             weapon1CritMin_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon1CritMin_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon1CritMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon1CritMin_Lbl.Location = new System.Drawing.Point(85, 50);
             weapon1CritMin_Lbl.Name = "weapon1CritMin_Lbl";
             weapon1CritMin_Lbl.Size = new System.Drawing.Size(114, 25);
@@ -533,7 +551,7 @@
             label17.AutoSize = true;
             label17.Dock = DockStyle.Fill;
             label17.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label17.ForeColor = System.Drawing.Color.PaleGreen;
+            label17.ForeColor = System.Drawing.Color.Plum;
             label17.Location = new System.Drawing.Point(205, 75);
             label17.Name = "label17";
             label17.Size = new System.Drawing.Size(121, 25);
@@ -546,7 +564,7 @@
             label16.AutoSize = true;
             label16.Dock = DockStyle.Fill;
             label16.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label16.ForeColor = System.Drawing.Color.PaleGreen;
+            label16.ForeColor = System.Drawing.Color.Plum;
             label16.Location = new System.Drawing.Point(3, 75);
             label16.Name = "label16";
             label16.Size = new System.Drawing.Size(76, 25);
@@ -559,7 +577,7 @@
             label15.AutoSize = true;
             label15.Dock = DockStyle.Fill;
             label15.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label15.ForeColor = System.Drawing.Color.PaleGreen;
+            label15.ForeColor = System.Drawing.Color.Plum;
             label15.Location = new System.Drawing.Point(205, 50);
             label15.Name = "label15";
             label15.Size = new System.Drawing.Size(121, 25);
@@ -572,7 +590,7 @@
             label14.AutoSize = true;
             label14.Dock = DockStyle.Fill;
             label14.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label14.ForeColor = System.Drawing.Color.PaleGreen;
+            label14.ForeColor = System.Drawing.Color.Plum;
             label14.Location = new System.Drawing.Point(3, 50);
             label14.Name = "label14";
             label14.Size = new System.Drawing.Size(76, 25);
@@ -585,7 +603,7 @@
             weapon1AvgMax_Lbl.AutoSize = true;
             weapon1AvgMax_Lbl.Dock = DockStyle.Fill;
             weapon1AvgMax_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon1AvgMax_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon1AvgMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon1AvgMax_Lbl.Location = new System.Drawing.Point(332, 25);
             weapon1AvgMax_Lbl.Name = "weapon1AvgMax_Lbl";
             weapon1AvgMax_Lbl.Size = new System.Drawing.Size(148, 25);
@@ -597,7 +615,7 @@
             weapon1AvgMin_Lbl.AutoSize = true;
             weapon1AvgMin_Lbl.Dock = DockStyle.Fill;
             weapon1AvgMin_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon1AvgMin_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon1AvgMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon1AvgMin_Lbl.Location = new System.Drawing.Point(332, 0);
             weapon1AvgMin_Lbl.Name = "weapon1AvgMin_Lbl";
             weapon1AvgMin_Lbl.Size = new System.Drawing.Size(148, 25);
@@ -609,7 +627,7 @@
             label13.AutoSize = true;
             label13.Dock = DockStyle.Fill;
             label13.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label13.ForeColor = System.Drawing.Color.PaleGreen;
+            label13.ForeColor = System.Drawing.Color.Plum;
             label13.Location = new System.Drawing.Point(205, 25);
             label13.Name = "label13";
             label13.Size = new System.Drawing.Size(121, 25);
@@ -622,7 +640,7 @@
             label12.AutoSize = true;
             label12.Dock = DockStyle.Fill;
             label12.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label12.ForeColor = System.Drawing.Color.PaleGreen;
+            label12.ForeColor = System.Drawing.Color.Plum;
             label12.Location = new System.Drawing.Point(205, 0);
             label12.Name = "label12";
             label12.Size = new System.Drawing.Size(121, 25);
@@ -636,7 +654,7 @@
             weapon1BaseMax_Lbl.AutoSize = true;
             weapon1BaseMax_Lbl.Dock = DockStyle.Fill;
             weapon1BaseMax_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon1BaseMax_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon1BaseMax_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon1BaseMax_Lbl.Location = new System.Drawing.Point(85, 25);
             weapon1BaseMax_Lbl.Name = "weapon1BaseMax_Lbl";
             weapon1BaseMax_Lbl.Size = new System.Drawing.Size(114, 25);
@@ -648,7 +666,7 @@
             weapon1BaseMin_Lbl.AutoSize = true;
             weapon1BaseMin_Lbl.Dock = DockStyle.Fill;
             weapon1BaseMin_Lbl.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            weapon1BaseMin_Lbl.ForeColor = System.Drawing.Color.PaleGreen;
+            weapon1BaseMin_Lbl.ForeColor = System.Drawing.Color.CornflowerBlue;
             weapon1BaseMin_Lbl.Location = new System.Drawing.Point(85, 0);
             weapon1BaseMin_Lbl.Name = "weapon1BaseMin_Lbl";
             weapon1BaseMin_Lbl.Size = new System.Drawing.Size(114, 25);
@@ -660,7 +678,7 @@
             label11.AutoSize = true;
             label11.Dock = DockStyle.Fill;
             label11.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label11.ForeColor = System.Drawing.Color.PaleGreen;
+            label11.ForeColor = System.Drawing.Color.Plum;
             label11.Location = new System.Drawing.Point(3, 25);
             label11.Name = "label11";
             label11.Size = new System.Drawing.Size(76, 25);
@@ -673,7 +691,7 @@
             label9.AutoSize = true;
             label9.Dock = DockStyle.Fill;
             label9.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label9.ForeColor = System.Drawing.Color.PaleGreen;
+            label9.ForeColor = System.Drawing.Color.Plum;
             label9.Location = new System.Drawing.Point(3, 0);
             label9.Name = "label9";
             label9.Size = new System.Drawing.Size(76, 25);
@@ -751,10 +769,30 @@
             // 
             // weapon2_Table
             // 
-            weapon2_Table.ColumnCount = 3;
+            weapon2_Table.ColumnCount = 5;
             weapon2_Table.ColumnStyles.Add(new ColumnStyle());
             weapon2_Table.ColumnStyles.Add(new ColumnStyle());
             weapon2_Table.ColumnStyles.Add(new ColumnStyle());
+            weapon2_Table.ColumnStyles.Add(new ColumnStyle());
+            weapon2_Table.ColumnStyles.Add(new ColumnStyle());
+            weapon2_Table.Controls.Add(maxNumUp, 4, 8);
+            weapon2_Table.Controls.Add(minNumUp, 4, 7);
+            weapon2_Table.Controls.Add(stat5NumUp, 4, 6);
+            weapon2_Table.Controls.Add(stat4NumUp, 4, 5);
+            weapon2_Table.Controls.Add(stat3NumUp, 4, 4);
+            weapon2_Table.Controls.Add(stat2NumUp, 4, 3);
+            weapon2_Table.Controls.Add(stat1NumUp, 4, 2);
+            weapon2_Table.Controls.Add(implicitNumUp, 4, 1);
+            weapon2_Table.Controls.Add(maxPerUp, 3, 8);
+            weapon2_Table.Controls.Add(minPerUp, 3, 7);
+            weapon2_Table.Controls.Add(label19, 4, 0);
+            weapon2_Table.Controls.Add(label18, 3, 0);
+            weapon2_Table.Controls.Add(stat5PerUp, 3, 6);
+            weapon2_Table.Controls.Add(stat4PerUp, 3, 5);
+            weapon2_Table.Controls.Add(stat3PerUp, 3, 4);
+            weapon2_Table.Controls.Add(stat2PerUp, 3, 3);
+            weapon2_Table.Controls.Add(stat1PerUp, 3, 2);
+            weapon2_Table.Controls.Add(implicitPerUp, 3, 1);
             weapon2_Table.Controls.Add(weapon2Max_Text, 2, 8);
             weapon2_Table.Controls.Add(weapon2Min_Text, 2, 7);
             weapon2_Table.Controls.Add(label6, 0, 8);
@@ -773,7 +811,7 @@
             weapon2_Table.Controls.Add(label3, 0, 0);
             weapon2_Table.Controls.Add(label4, 0, 1);
             weapon2_Table.Controls.Add(weaponImplicit2_Text, 2, 1);
-            weapon2_Table.Location = new System.Drawing.Point(847, 58);
+            weapon2_Table.Location = new System.Drawing.Point(721, 58);
             weapon2_Table.Name = "weapon2_Table";
             weapon2_Table.RowCount = 9;
             weapon2_Table.RowStyles.Add(new RowStyle());
@@ -785,8 +823,210 @@
             weapon2_Table.RowStyles.Add(new RowStyle());
             weapon2_Table.RowStyles.Add(new RowStyle());
             weapon2_Table.RowStyles.Add(new RowStyle());
-            weapon2_Table.Size = new System.Drawing.Size(513, 323);
+            weapon2_Table.Size = new System.Drawing.Size(639, 323);
             weapon2_Table.TabIndex = 2;
+            // 
+            // maxNumUp
+            // 
+            maxNumUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            maxNumUp.Dock = DockStyle.Fill;
+            maxNumUp.ForeColor = System.Drawing.Color.SkyBlue;
+            maxNumUp.Location = new System.Drawing.Point(578, 283);
+            maxNumUp.MaximumSize = new System.Drawing.Size(50, 0);
+            maxNumUp.Name = "maxNumUp";
+            maxNumUp.Size = new System.Drawing.Size(50, 31);
+            maxNumUp.TabIndex = 48;
+            // 
+            // minNumUp
+            // 
+            minNumUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            minNumUp.Dock = DockStyle.Fill;
+            minNumUp.ForeColor = System.Drawing.Color.SkyBlue;
+            minNumUp.Location = new System.Drawing.Point(578, 246);
+            minNumUp.MaximumSize = new System.Drawing.Size(50, 0);
+            minNumUp.Name = "minNumUp";
+            minNumUp.Size = new System.Drawing.Size(50, 31);
+            minNumUp.TabIndex = 47;
+            // 
+            // stat5NumUp
+            // 
+            stat5NumUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            stat5NumUp.Dock = DockStyle.Fill;
+            stat5NumUp.ForeColor = System.Drawing.Color.SkyBlue;
+            stat5NumUp.Location = new System.Drawing.Point(578, 209);
+            stat5NumUp.MaximumSize = new System.Drawing.Size(50, 0);
+            stat5NumUp.Name = "stat5NumUp";
+            stat5NumUp.Size = new System.Drawing.Size(50, 31);
+            stat5NumUp.TabIndex = 46;
+            // 
+            // stat4NumUp
+            // 
+            stat4NumUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            stat4NumUp.Dock = DockStyle.Fill;
+            stat4NumUp.ForeColor = System.Drawing.Color.SkyBlue;
+            stat4NumUp.Location = new System.Drawing.Point(578, 172);
+            stat4NumUp.MaximumSize = new System.Drawing.Size(50, 0);
+            stat4NumUp.Name = "stat4NumUp";
+            stat4NumUp.Size = new System.Drawing.Size(50, 31);
+            stat4NumUp.TabIndex = 45;
+            // 
+            // stat3NumUp
+            // 
+            stat3NumUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            stat3NumUp.Dock = DockStyle.Fill;
+            stat3NumUp.ForeColor = System.Drawing.Color.SkyBlue;
+            stat3NumUp.Location = new System.Drawing.Point(578, 135);
+            stat3NumUp.MaximumSize = new System.Drawing.Size(50, 0);
+            stat3NumUp.Name = "stat3NumUp";
+            stat3NumUp.Size = new System.Drawing.Size(50, 31);
+            stat3NumUp.TabIndex = 44;
+            // 
+            // stat2NumUp
+            // 
+            stat2NumUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            stat2NumUp.Dock = DockStyle.Fill;
+            stat2NumUp.ForeColor = System.Drawing.Color.SkyBlue;
+            stat2NumUp.Location = new System.Drawing.Point(578, 98);
+            stat2NumUp.MaximumSize = new System.Drawing.Size(50, 0);
+            stat2NumUp.Name = "stat2NumUp";
+            stat2NumUp.Size = new System.Drawing.Size(50, 31);
+            stat2NumUp.TabIndex = 43;
+            // 
+            // stat1NumUp
+            // 
+            stat1NumUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            stat1NumUp.Dock = DockStyle.Fill;
+            stat1NumUp.ForeColor = System.Drawing.Color.SkyBlue;
+            stat1NumUp.Location = new System.Drawing.Point(578, 61);
+            stat1NumUp.MaximumSize = new System.Drawing.Size(50, 0);
+            stat1NumUp.Name = "stat1NumUp";
+            stat1NumUp.Size = new System.Drawing.Size(50, 31);
+            stat1NumUp.TabIndex = 42;
+            // 
+            // implicitNumUp
+            // 
+            implicitNumUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            implicitNumUp.Dock = DockStyle.Fill;
+            implicitNumUp.ForeColor = System.Drawing.Color.SkyBlue;
+            implicitNumUp.Location = new System.Drawing.Point(578, 24);
+            implicitNumUp.MaximumSize = new System.Drawing.Size(50, 0);
+            implicitNumUp.Name = "implicitNumUp";
+            implicitNumUp.Size = new System.Drawing.Size(50, 31);
+            implicitNumUp.TabIndex = 41;
+            // 
+            // maxPerUp
+            // 
+            maxPerUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            maxPerUp.Dock = DockStyle.Fill;
+            maxPerUp.ForeColor = System.Drawing.Color.SkyBlue;
+            maxPerUp.Location = new System.Drawing.Point(515, 283);
+            maxPerUp.MaximumSize = new System.Drawing.Size(50, 0);
+            maxPerUp.Name = "maxPerUp";
+            maxPerUp.Size = new System.Drawing.Size(50, 31);
+            maxPerUp.TabIndex = 40;
+            // 
+            // minPerUp
+            // 
+            minPerUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            minPerUp.Dock = DockStyle.Fill;
+            minPerUp.ForeColor = System.Drawing.Color.SkyBlue;
+            minPerUp.Location = new System.Drawing.Point(515, 246);
+            minPerUp.MaximumSize = new System.Drawing.Size(50, 0);
+            minPerUp.Name = "minPerUp";
+            minPerUp.Size = new System.Drawing.Size(50, 31);
+            minPerUp.TabIndex = 39;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Dock = DockStyle.Fill;
+            label19.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label19.ForeColor = System.Drawing.Color.PaleGreen;
+            label19.Location = new System.Drawing.Point(578, 0);
+            label19.Name = "label19";
+            label19.Size = new System.Drawing.Size(58, 21);
+            label19.TabIndex = 38;
+            label19.Text = "# Up";
+            label19.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Dock = DockStyle.Fill;
+            label18.Font = new Font("Calibri", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label18.ForeColor = System.Drawing.Color.PaleGreen;
+            label18.Location = new System.Drawing.Point(515, 0);
+            label18.Name = "label18";
+            label18.Size = new System.Drawing.Size(57, 21);
+            label18.TabIndex = 37;
+            label18.Text = "Per Up";
+            label18.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // stat5PerUp
+            // 
+            stat5PerUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            stat5PerUp.Dock = DockStyle.Fill;
+            stat5PerUp.ForeColor = System.Drawing.Color.SkyBlue;
+            stat5PerUp.Location = new System.Drawing.Point(515, 209);
+            stat5PerUp.MaximumSize = new System.Drawing.Size(50, 0);
+            stat5PerUp.Name = "stat5PerUp";
+            stat5PerUp.Size = new System.Drawing.Size(50, 31);
+            stat5PerUp.TabIndex = 36;
+            // 
+            // stat4PerUp
+            // 
+            stat4PerUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            stat4PerUp.Dock = DockStyle.Fill;
+            stat4PerUp.ForeColor = System.Drawing.Color.SkyBlue;
+            stat4PerUp.Location = new System.Drawing.Point(515, 172);
+            stat4PerUp.MaximumSize = new System.Drawing.Size(50, 0);
+            stat4PerUp.Name = "stat4PerUp";
+            stat4PerUp.Size = new System.Drawing.Size(50, 31);
+            stat4PerUp.TabIndex = 35;
+            // 
+            // stat3PerUp
+            // 
+            stat3PerUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            stat3PerUp.Dock = DockStyle.Fill;
+            stat3PerUp.ForeColor = System.Drawing.Color.SkyBlue;
+            stat3PerUp.Location = new System.Drawing.Point(515, 135);
+            stat3PerUp.MaximumSize = new System.Drawing.Size(50, 0);
+            stat3PerUp.Name = "stat3PerUp";
+            stat3PerUp.Size = new System.Drawing.Size(50, 31);
+            stat3PerUp.TabIndex = 34;
+            // 
+            // stat2PerUp
+            // 
+            stat2PerUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            stat2PerUp.Dock = DockStyle.Fill;
+            stat2PerUp.ForeColor = System.Drawing.Color.SkyBlue;
+            stat2PerUp.Location = new System.Drawing.Point(515, 98);
+            stat2PerUp.MaximumSize = new System.Drawing.Size(50, 0);
+            stat2PerUp.Name = "stat2PerUp";
+            stat2PerUp.Size = new System.Drawing.Size(50, 31);
+            stat2PerUp.TabIndex = 33;
+            // 
+            // stat1PerUp
+            // 
+            stat1PerUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            stat1PerUp.Dock = DockStyle.Fill;
+            stat1PerUp.ForeColor = System.Drawing.Color.SkyBlue;
+            stat1PerUp.Location = new System.Drawing.Point(515, 61);
+            stat1PerUp.MaximumSize = new System.Drawing.Size(50, 0);
+            stat1PerUp.Name = "stat1PerUp";
+            stat1PerUp.Size = new System.Drawing.Size(50, 31);
+            stat1PerUp.TabIndex = 32;
+            // 
+            // implicitPerUp
+            // 
+            implicitPerUp.BackColor = System.Drawing.Color.FromArgb(72, 68, 68);
+            implicitPerUp.Dock = DockStyle.Fill;
+            implicitPerUp.ForeColor = System.Drawing.Color.SkyBlue;
+            implicitPerUp.Location = new System.Drawing.Point(515, 24);
+            implicitPerUp.MaximumSize = new System.Drawing.Size(50, 0);
+            implicitPerUp.Name = "implicitPerUp";
+            implicitPerUp.Size = new System.Drawing.Size(50, 31);
+            implicitPerUp.TabIndex = 31;
             // 
             // weapon2Max_Text
             // 
@@ -986,7 +1226,7 @@
             label3.ForeColor = System.Drawing.Color.PaleGreen;
             label3.Location = new System.Drawing.Point(3, 0);
             label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(507, 21);
+            label3.Size = new System.Drawing.Size(506, 21);
             label3.TabIndex = 1;
             label3.Text = "Weapon 2";
             label3.TextAlign = ContentAlignment.MiddleCenter;
@@ -1550,5 +1790,23 @@
         private Label weapon2BaseMin_Lbl;
         private Label label32;
         private Label label33;
+        private TextBox stat5PerUp;
+        private TextBox stat4PerUp;
+        private TextBox stat3PerUp;
+        private TextBox stat2PerUp;
+        private TextBox stat1PerUp;
+        private TextBox implicitPerUp;
+        private Label label19;
+        private Label label18;
+        private TextBox stat5NumUp;
+        private TextBox stat4NumUp;
+        private TextBox stat3NumUp;
+        private TextBox stat2NumUp;
+        private TextBox stat1NumUp;
+        private TextBox implicitNumUp;
+        private TextBox maxPerUp;
+        private TextBox minPerUp;
+        private TextBox maxNumUp;
+        private TextBox minNumUp;
     }
 }

@@ -270,6 +270,9 @@ namespace Diablo_4_Compare
             combo_boxes.Add(weapon2_table.Controls["weapon2Stat3_Combo"]);
             combo_boxes.Add(weapon2_table.Controls["weapon2Stat4_Combo"]);
             combo_boxes.Add(weapon2_table.Controls["weapon2Stat5_Combo"]);
+            int box = 0;
+            TextBox tb_per = new TextBox();
+            TextBox tb_num = new TextBox();
             foreach (Control c in combo_boxes)
             {
                 skill_name = Calculate.Get_Stat_Name(c.Text);
@@ -279,39 +282,135 @@ namespace Diablo_4_Compare
                     the_text = the_text.Substring(0, the_text.IndexOf("_"));
                     the_text = the_text + "_Text";
                     TextBox tb = ((TextBox)weapon2_table.Controls[the_text]);
+                    switch (box)
+                    {
+                        case 0:
+                            tb_per = ((TextBox)weapon2_table.Controls["implicitPerUp"]);
+                            tb_num = ((TextBox)weapon2_table.Controls["implicitNumUp"]);
+                            break;
+                        case 1:
+                            tb_per = ((TextBox)weapon2_table.Controls["stat1PerUp"]);
+                            tb_num = ((TextBox)weapon2_table.Controls["stat1NumUp"]);
+                            break;
+                        case 2:
+                            tb_per = ((TextBox)weapon2_table.Controls["stat2PerUp"]);
+                            tb_num = ((TextBox)weapon2_table.Controls["stat2NumUp"]);
+                            break;
+                        case 3:
+                            tb_per = ((TextBox)weapon2_table.Controls["stat3PerUp"]);
+                            tb_num = ((TextBox)weapon2_table.Controls["stat3NumUp"]);
+                            break;
+                        case 4:
+                            tb_per = ((TextBox)weapon2_table.Controls["stat4PerUp"]);
+                            tb_num = ((TextBox)weapon2_table.Controls["stat4NumUp"]);
+                            break;
+                        case 5:
+                            tb_per = ((TextBox)weapon2_table.Controls["stat5PerUp"]);
+                            tb_num = ((TextBox)weapon2_table.Controls["stat5NumUp"]);
+                            break;
+                    }
                     CheckBox cb = ((CheckBox)skills_table.Controls[skill_name + "_CB"]);
                     if (skill_name.Equals("mainStat"))
                     {
                         mainStat = mainStat + (Convert.ToInt32(tb.Text));
+                        if (!(string.IsNullOrEmpty(tb_per.Text)) && !(string.IsNullOrEmpty(tb_num.Text)))
+                        {
+                            int change = Convert.ToInt32(tb_per.Text) * Convert.ToInt32(tb_num.Text);
+                            if (change > 0)
+                            {
+                                mainStat = mainStat + change;
+                            }
+                        }
                     }
                     else if (cb.Checked == true)
                     {
                         if (skill_name.Contains("CriticalStrikeDamage"))
                         {
                             csd = csd + (Convert.ToDouble(tb.Text) / 100);
+                            if (!(string.IsNullOrEmpty(tb_per.Text)) && !(string.IsNullOrEmpty(tb_num.Text)))
+                            {
+                                double change = Convert.ToDouble(tb_per.Text) * Convert.ToDouble(tb_num.Text);
+                                if (change > 0)
+                                {
+                                    csd = csd + (change / 100);
+                                }
+                            }
                         }
                         else if (skill_name.Equals("OverpowerDamage"))
                         {
                             opd = opd + (Convert.ToDouble(tb.Text) / 100);
+                            if (!(string.IsNullOrEmpty(tb_per.Text)) && !(string.IsNullOrEmpty(tb_num.Text)))
+                            {
+                                double change = Convert.ToDouble(tb_per.Text) * Convert.ToDouble(tb_num.Text);
+                                if (change > 0)
+                                {
+                                    opd = opd + (change / 100);
+                                }
+                            }
                         }
                         else if (skill_name.Equals("VulnerableDamage"))
                         {
                             vuln = vuln + (Convert.ToDouble(tb.Text) / 100);
+                            if (!(string.IsNullOrEmpty(tb_per.Text)) && !(string.IsNullOrEmpty(tb_num.Text)))
+                            {
+                                double change = Convert.ToDouble(tb_per.Text) * Convert.ToDouble(tb_num.Text);
+                                if (change > 0)
+                                {
+                                    vuln = vuln + (change / 100);
+                                }
+                            }
                         }
                         else if (skill_name.Equals("DamagewhileBerserking"))
                         {
                             zerk_bonus = zerk_bonus + (Convert.ToDouble(tb.Text) / 100);
+                            if (!(string.IsNullOrEmpty(tb_per.Text)) && !(string.IsNullOrEmpty(tb_num.Text)))
+                            {
+                                double change = Convert.ToDouble(tb_per.Text) * Convert.ToDouble(tb_num.Text);
+                                if (change > 0)
+                                {
+                                    zerk_bonus = zerk_bonus + (change / 100);
+                                }
+                            }
                         }
                         else
                         {
                             additive = additive + (Convert.ToDouble(tb.Text) / 100);
+                            if (!(string.IsNullOrEmpty(tb_per.Text)) && !(string.IsNullOrEmpty(tb_num.Text)))
+                            {
+                                double change = Convert.ToDouble(tb_per.Text) * Convert.ToDouble(tb_num.Text);
+                                if (change > 0)
+                                {
+                                    additive = additive + (change / 100);
+                                }
+                            }
                         }
 
                     }
                 }
+                box++;
             }
+            tb_per = ((TextBox)weapon2_table.Controls["minPerUp"]);
+            tb_num = ((TextBox)weapon2_table.Controls["minNumUp"]);
             int weapon2_min = Convert.ToInt32(weapon2_table.Controls["weapon2Min_Text"].Text);
+            if (!(string.IsNullOrEmpty(tb_per.Text)) && !(string.IsNullOrEmpty(tb_num.Text)))
+            {
+                int change = Convert.ToInt32(tb_per.Text) * Convert.ToInt32(tb_num.Text);
+                if (change > 0)
+                {
+                    weapon2_min = weapon2_min + change;
+                }
+            }
+            tb_per = ((TextBox)weapon2_table.Controls["maxPerUp"]);
+            tb_num = ((TextBox)weapon2_table.Controls["maxNumUp"]);
             int weapon2_max = Convert.ToInt32(weapon2_table.Controls["weapon2Max_Text"].Text);
+            if (!(string.IsNullOrEmpty(tb_per.Text)) && !(string.IsNullOrEmpty(tb_num.Text)))
+            {
+                int change = Convert.ToInt32(tb_per.Text) * Convert.ToInt32(tb_num.Text);
+                if (change > 0)
+                {
+                    weapon2_max = weapon2_max + change;
+                }
+            }
             double weapon2_dam_base_min = ((((weapon2_min + weapon2_max) / 2) * 0.9) * skillDamage) * (1 + (mainStat * 0.001));
             double weapon2_dam_base_max = ((((weapon2_min + weapon2_max) / 2) * 1.1) * skillDamage) * (1 + (mainStat * 0.001));
             double additive2 = additive + (zerk_bonus * zerk_mult);
@@ -323,8 +422,8 @@ namespace Diablo_4_Compare
             double weapon2_crit_max = weapon2_total_base_dam_max * (1 + (csd * csd_mult));
             minmax2_table.Controls["weapon2CritMin_Lbl"].Text = weapon2_crit_min.ToString("N1");
             minmax2_table.Controls["weapon2CritMax_Lbl"].Text = weapon2_crit_max.ToString("N1");
-            double overpower2_min = ((healthfort * (additive * multiplicative)) * (opd * opd_mult)) + weapon2_total_base_dam_min;
-            double overpower2_max = ((healthfort * (additive * multiplicative)) * (opd * opd_mult)) + weapon2_total_base_dam_max;
+            double overpower2_min = ((healthfort * (additive2 * multiplicative)) * (opd * opd_mult)) + weapon2_total_base_dam_min;
+            double overpower2_max = ((healthfort * (additive2 * multiplicative)) * (opd * opd_mult)) + weapon2_total_base_dam_max;
             minmax2_table.Controls["weapon2OPMin_Lbl"].Text = overpower2_min.ToString("N1");
             minmax2_table.Controls["weapon2OPMax_Lbl"].Text = overpower2_max.ToString("N1");
             double weapon2_average_min = weapon2_total_base_dam_min * (1 + ((csc * csc_mult) * (csd * csd_mult))) + (((healthfort * (additive2 * multiplicative)) * (opd * opd_mult)) * opc);
@@ -745,423 +844,6 @@ namespace Diablo_4_Compare
                 
     }
 
-    
-    public class Barb_Weapon
-    {
-        public List<int> dams = new List<int>();
-        public int allstats = new int();
-        public float basicDamage = new float();
-        public float coreDamage = new float();
-        public float CSD = new float();
-        public float damToBleed = new float();
-        public float damToClose = new float();
-        public float damToCC = new float();
-        public float damToDist = new float();
-        public float damToInj = new float();
-        public float damToSlow = new float();
-        public float damStunned = new float();
-        public float damZerk = new float();
-        public float damOP = new float();
-        public int strength = new int();
-        public float damUlt = new float();
-        public float damVuln = new float();
-    }
-
-    class Barbarian
-    {
-        public double CriticalStrikeChance;
-        public double CriticalStrikeChancevsInjured;
-        public double CriticalStrikeDamage;
-        public double CriticalStrikeDamagevsCC;
-        public double CriticalStrikeDamagevsVulnerable;
-        public double CriticalStrikeDamagewithCore;
-        public double VulnerableDamage;
-        public double OverpowerChance;
-        public double OverpowerDamage;
-        public int BaseHealth;
-        public int Fortify;
-
-        public double AllDamage;
-        public double DamageVsBleeding;
-        public double DamageVsCC;
-        public double DamageVsClose;
-        public double DamageVsDistant;
-        public double DamageVsElites;
-        public double DamageVsHealthy;
-        public double DamageVsInjured;
-        public double DamageVsSlowed;
-        public double DamageVsStunned;
-        public double DamagewhileBerserking;
-        public double DamagewhileFortified;
-        public double DamagewhileHealthy;
-        public double DamagewithBasic;
-        public double DamagewithBleeding;
-        public double DamagewithBludgeoning;
-        public double DamagewithCore;
-        public double DamagewithDualWielding;
-        public double DamagewithMace;
-        public double DamagewithPhysical;
-        public double DamagewithPolearm;
-        public double DamagewithSlashing;
-        public double DamagewithSwappedWeapons;
-        public double DamagewithSword;
-        public double DamagewithWeaponMastery;
-
-        public double skillBattleFlay;
-        public double skillBruteForce;
-        public double skillCounteroffenisve;
-        public double skillCuttotheBone;
-        public double skillEnhancedDeathBlow;
-        public double skillEnhancedLungingStrike;
-        public double skillExpertiseOneHandedMace;
-        public double skillExpertiseTwoHandedAxe;
-        public double skillExpertiseTwoHandedMace;
-        public double skillExpertiseTwoHandedSword;
-        public double skillFuriousHammeroftheAncients;
-        public double skillFuriousUpheaval;
-        public double skillHeavyHanded;
-        public double skillPitFighter;
-        public double skillPowerWarCry;
-        public double skillPrimeCalloftheAncients;
-        public double skillPrimeIronMaelstromCSD;
-        public double skillSlayingStrike;
-        public double skillSupremeWrathoftheBerserker;
-        public double skillUnbridledRage;
-        public double skillViolentHammeroftheAncients;
-        public double skillViolentRend;
-        public double skillViolentWhirlwind;
-        public double skillWalkingArsenal;
-        public double skillWallop;
-        public double skillWarCry;
-
-        public double glyphAmbidextrous;
-        public double glyphBrawl;
-        public double glyphCleaver;
-        public double glyphCrusher;
-        public double glyphExecutioner;
-        public double glyphMight;
-        public double glyphRevenge;
-    }
-
-    class Druid
-    {
-        public double CriticalStrikeChance;
-        public double CriticalStrikeChancevsInjured;
-        public double CriticalStrikeDamage;
-        public double CriticalStrikeDamagevsCC;
-        public double CriticalStrikeDamagevsVulnerable;
-        public double CriticalStrikeDamagewithCore;
-        public double CriticalStrikeDamagewithEarth;
-        public double CriticalStrikeDamagewithLightning;
-        public double CriticalStrikeDamagewithPoison;
-        public double CriticalStrikeDamagewithWerewolf;
-        public double VulnerableDamage;
-        public double OverpowerChance;
-        public double OverpowerDamage;
-        public int BaseHealth;
-        public int Fortify;
-
-        public double AllDamage;
-        public double DamageVsCC;
-        public double DamageVsClose;
-        public double DamageVsDistant;
-        public double DamageVsElites;
-        public double DamageVsHealthy;
-        public double DamageVsImmobilized;
-        public double DamageVsInjured;
-        public double DamageVsPoisoned;
-        public double DamageVsSlowed;
-        public double DamageVsStunned;
-        public double DamagewhileFortified;
-        public double DamagewhileHealthy;
-        public double DamagewhileHuman;
-        public double DamagewhileShapeshifted;
-        public double DamagewhileWerebear;
-        public double DamagewhileWerewolf;
-        public double DamagewithBasic;
-        public double DamagewithCompanion;
-        public double DamagewithCore;
-        public double DamagewithEarth;
-        public double DamagewithLightning;
-        public double DamagewithPhysical;
-        public double DamagewithPoison;
-        public double DamagewithStorm;
-        public double DamagewithWerebear;
-        public double DamagewithWerewolf;
-
-        public double skillAvianWrath;
-        public double skillBestialRampage;
-        public double skillCalloftheWild;
-        public double skillCrushingEarth;
-        public double skillDefiance;
-        public double skillElectricShock;
-        public double skillEnhancedRabies;
-        public double skillEnhancedTrample;
-        public double skillEnhancedWolfPack;
-        public double skillEnvenom;
-        public double skillLupineFerocity;
-        public double skillNaturalDisaster;
-        public double skillNaturesReach;
-        public double skillOverload;
-        public double skillPerfectStorm;
-        public double skillPrimalLandslide;
-        public double skillPrimalShred;
-        public double skillQuickshift;
-        public double skillResonance;
-        public double skillStoneGuard;
-        public double skillSupremeLacerate;
-        public double skillUrsineStrength;
-        public double skillWildImpulses;
-
-        public double glyphDominate;
-        public double glyphEarthandSky;
-        public double glyphFangandClaw;
-        public double glyphFulminate;
-        public double glyphKeeper;
-        public double glyphOutmatch;
-        public double glyphSpirit;
-        public double glyphWilds;
-    }
-    class Necromancer
-    {
-        public double CriticalStrikeChance;
-        public double CriticalStrikeChancevsInjured;
-        public double CriticalStrikeDamage;
-        public double CriticalStrikeDamagevsCC;
-        public double CriticalStrikeDamagevsVulnerable;
-        public double CriticalStrikeDamagewithBlood;
-        public double CriticalStrikeDamagewithBone;
-        public double CriticalStrikeDamagewithCore;
-        public double CriticalStrikeDamagewithShadow;
-        public double VulnerableDamage;
-        public double OverpowerChance;
-        public double OverpowerDamage;
-        public int BaseHealth;
-        public int Fortify;
-
-        public double AllDamage;
-        public double DamageVsCC;
-        public double DamageVsClose;
-        public double DamageVsDistant;
-        public double DamageVsFrozen;
-        public double DamageVsHealthy;
-        public double DamageVsInjured;
-        public double DamageVsSlowed;
-        public double DamageVsStunned;
-        public double DamagewhileHealthy;
-        public double DamagewhileFortified;
-        public double DamagewithBasic;
-        public double DamagewithBlood;
-        public double DamagewithBone;
-        public double DamagewithCore;
-        public double DamagewithDarkness;
-        public double DamagewithMinions;
-        public double DamagewithPhysical;
-        public double DamagewithShadow;
-        public double DamagewithShadowDoT;
-        public double DamagefromGolem;
-        public double DamagefromBloodOrb;
-        public double DamagefromMages;
-        public double DamagefromWarriors;
-
-        public double skillAcolytesDecompose;
-        public double skillAmplifyDamage;
-        public double skillBloodSurge;
-        public double skillCoalescedBlood;
-        public double skillCompoundFracture;
-        public double skillDeathsEmbrace;
-        public double skillDeathsReach;
-        public double skillEvulsion;
-        public double skillFueledbyDeath;
-        public double skillGloom;
-        public double skillGolemMastery;
-        public double skillHellbentCommander;
-        public double skillImperfectlyBalanced;
-        public double skillMementoMori;
-        public double skillOssifiedEssence;
-        public double skillPlaguedCorpseExplosion;
-        public double skillSacrificeGolemIron;
-        public double skillSacrificeMagesBone;
-        public double skillSacrificeMagesCold;
-        public double skillSacrificeWarriorsReapers;
-        public double skillSacrificeWarriorsSkirmishers;
-        public double skillShadowBlight;
-        public double skillSkeletalMageMastery;
-        public double skillSkeletalWarriorMastery;
-        public double skillSupernaturalBlight;
-        public double skillSupernaturalBloodSurge;
-        public double skillSupernaturalSever;
-        public double skillTerror;
-        public double skillTidesofBlood;
-
-        public double glyphAbyssal;
-        public double glyphAmplify;
-        public double glyphControl;
-        public double glyphCorporeal;
-        public double glyphDeadRaiser;
-        public double glyphDominate;
-        public double glyphEssence;
-        public double glyphExploit;
-        public double glyphGravekeeper;
-        public double glyphRevenge;
-        public double glyphSacrificial;
-        public double glyphScourge;
-    }
-    class Rogue
-    {
-        public double CriticalStrikeChance;
-        public double CriticalStrikeChancevsInjured;
-        public double CriticalStrikeDamage;
-        public double CriticalStrikeDamagevsCC;
-        public double CriticalStrikeDamagevsVulnerable;
-        public double CriticalStrikeDamagewithCold;
-        public double CriticalStrikeDamagewithCore;
-        public double CriticalStrikeDamagewithImbued;
-        public double CriticalStrikeDamagewithPoison;
-        public double CriticalStrikeDamagewithShadow;
-        public double VulnerableDamage;
-        public double OverpowerChance;
-        public double OverpowerDamage;
-        public int BaseHealth;
-        public int Fortify;
-
-        public double AllDamage;
-        public double DamageVsCC;
-        public double DamageVsChilled;
-        public double DamageVsClose;
-        public double DamageVsDazed;
-        public double DamageVsDistant;
-        public double DamageVsElites;
-        public double DamageVsFrozen;
-        public double DamageVsHealthy;
-        public double DamageVsInjured;
-        public double DamageVsKnockedDown;
-        public double DamageVsPoisoned;
-        public double DamageVsSlowed;
-        public double DamageVsStunned;
-        public double DamageVsTrapped;
-        public double DamagewhileHealthy;
-        public double DamagewithBasic;
-        public double DamagewithCold;
-        public double DamagewithCore;
-        public double DamagewithCuttthroat;
-        public double DamagewithDualWielding;
-        public double DamagewithImbued;
-        public double DamagewithImbuement;
-        public double DamagewithMarksman;
-        public double DamagewithPoison;
-        public double DamagewithRanged;
-        public double DamagewithShadow;
-        public double DamagewithTrap;
-        public double DamagefromDodging;
-
-        public double skillAdvancedRapidFire;
-        public double skillBlendedPoisonImbuement;
-        public double skillCloseQuartersCombat;
-        public double skillDeadlyVenom;
-        public double skillEnhancedCaltrops;
-        public double skillEnhancedDash;
-        public double skillEnhancedPenetratingShot;
-        public double skillEnhancedSmokeGrenade;
-        public double skillEnhancedTwistingBlades;
-        public double skillExploit;
-        public double skillFrigidFinesse;
-        public double skillImpetus;
-        public double skillMalice;
-        public double skillMixedColdImbuement;
-        public double skillMixedShadowImbuement;
-        public double skillPrecision;
-        public double skillPrimeRainofArrows;
-        public double skillSubvertingPoisonTrap;
-        public double skillWeaponMasteryCSD;
-        public double skillWeaponMasteryDmg;
-
-        public double glyphAmbush;
-        public double glyphCanny;
-        public double glyphChip;
-        public double glyphControl;
-        public double glyphDevious;
-        public double glyphEfficacy;
-        public double glyphPride;
-        public double glyphVersatility;
-    }
-    class Sorc
-    {
-        public double CriticalStrikeChance;
-        public double CriticalStrikeChancevsInjured;
-        public double CriticalStrikeDamage;
-        public double CriticalStrikeDamagevsCC;
-        public double CriticalStrikeDamagevsVulnerable;
-        public double CriticalStrikeDamagewithCold;
-        public double CriticalStrikeDamagewithCore;
-        public double CriticalStrikeDamagewithFire;
-        public double CriticalStrikeDamagewithLightning;
-        public double VulnerableDamage;
-        public double OverpowerChance;
-        public double OverpowerDamage;
-        public int BaseHealth;
-        public int Fortify;
-
-        public double AllDamage;
-        public double DamageVsBurning;
-        public double DamageVsCC;
-        public double DamageVsChilled;
-        public double DamageVsClose;
-        public double DamageVsDistant;
-        public double DamageVsElites;
-        public double DamageVsFrozen;
-        public double DamageVsHealthy;
-        public double DamageVsImmobilized;
-        public double DamageVsInjured;
-        public double DamageVsSlowed;
-        public double DamageVsStunned;
-        public double DamagewhileHealthy;
-        public double DamagewithBasic;
-        public double DamagewithBurning;
-        public double DamagewithConjuration;
-        public double DamagewithCold;
-        public double DamagewithCore;
-        public double DamagewithCracklingEnergy;
-        public double DamagewithFire;
-        public double DamagewithFrost;
-        public double DamagewithLightning;
-        public double DamagewithPyromancy;
-        public double DamagewithShock;
-
-        public double skillAvalanche;
-        public double skillCombustion;
-        public double skillConjurationMastery;
-        public double skillDevouringBlaze;
-        public double skillElementalDominance;
-        public double skillEnchantmentFireBolt;
-        public double skillEndlessPyre;
-        public double skillEnhancedBlizzard;
-        public double skillEnhancedFirewall;
-        public double skillEnhancedFrozenOrb;
-        public double skillEnhancedSpark;
-        public double skillEsusFerocityCSC;
-        public double skillEsusFerocityCSD;
-        public double skillGlassCannon;
-        public double skillGlintingFireBolt;
-        public double skillGreaterChainLightning;
-        public double skillGreaterChargedBolts;
-        public double skillHoarfrost;
-        public double skillIceShardsvsFrozen;
-        public double skillIcyTouch;
-        public double skillInnerFlames;
-        public double skillPermafrost;
-        public double skillSummonedLightningSpear;
-        public double skillVyrsMastery;
-
-        public double glyphCharged;
-        public double glyphControl;
-        public double glyphDestruction;
-        public double glyphElementalist;
-        public double glyphExploit;
-        public double glyphFlamefeeder;
-        public double glyphPyromaniac;
-        public double glyphTactician;
-    }
     class Column_1
     {
         [Name("control")]
